@@ -1,0 +1,18 @@
+{
+	"breaks":
+	{
+		"/Applications/MAMP/htdocs/laravel3/application/views/sublime.php":
+		{
+		},
+		"/Applications/MAMP/htdocs/laravel3/public/js/sublime_inspector.js":
+		{
+		},
+		"/Applications/MAMP/htdocs/test/sublime_inspector.js":
+		{
+			"5":
+			{
+				"status": "disabled"
+			}
+		}
+	}
+}

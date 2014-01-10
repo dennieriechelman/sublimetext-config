@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="$1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>$2</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        $3
+    </body>
+</html>
+    	]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>doctype</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <!-- <scope>source.python</scope> -->
+    <!-- Optional: Description to show in the menu -->
+    <description>HTML 5 Snippet</description>
+</snippet>

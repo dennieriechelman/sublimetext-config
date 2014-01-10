@@ -1,0 +1,1289 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"valu",
+				"valuable"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"userE",
+				"userExistsInTable  (function)"
+			],
+			[
+				"Card",
+				"CardsInRowCollection"
+			],
+			[
+				"Car",
+				"CardsInRowModel"
+			],
+			[
+				"getCards",
+				"getCardsReturn  (function)"
+			],
+			[
+				"result",
+				"result_array"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"email",
+				"emailAddress"
+			],
+			[
+				"emailAd",
+				"emailAdress"
+			],
+			[
+				"rende",
+				"renderNextButton"
+			],
+			[
+				"page",
+				"pageBootstraps"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"dra",
+				"dragObj"
+			],
+			[
+				"tx",
+				"text-align"
+			],
+			[
+				"backround",
+				"background-position"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"product",
+				"product-info"
+			],
+			[
+				"font",
+				"font-size	zen:css_properties"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"border-",
+				"border-color	zen:css_properties"
+			],
+			[
+				"no",
+				"no-repeat  (value)"
+			],
+			[
+				"fsi",
+				"font-size	zen:css_properties"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/css/style.scss",
+			"settings":
+			{
+				"buffer_size": 12502,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/templates/templates.html",
+			"settings":
+			{
+				"buffer_size": 12632,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/index.html",
+			"settings":
+			{
+				"buffer_size": 113,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/views/beliefsPart2Test.js",
+			"settings":
+			{
+				"buffer_size": 2045,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/getcard.php",
+			"settings":
+			{
+				"buffer_size": 1285,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/models/cards.php",
+			"settings":
+			{
+				"buffer_size": 4193,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/auth.php",
+			"settings":
+			{
+				"buffer_size": 20160,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/beliefs/intro.php",
+			"settings":
+			{
+				"buffer_size": 4847,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/pages/page7.php",
+			"settings":
+			{
+				"buffer_size": 929,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/JSLint/JSLint.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"html",
+				"Tidy HTML"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"paca",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"jsl",
+				"JSLint: Run JSLint"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"req",
+				"Snippet: requiresnippet"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"fetc",
+				"Fetch: File"
+			],
+			[
+				"fe",
+				"Fetch: File"
+			],
+			[
+				"fetch",
+				"Fetch: Manage"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"pa",
+				"Package Control: Create Package File"
+			],
+			[
+				"javc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pros",
+				"Project: Save As"
+			],
+			[
+				"proj",
+				"Project: Save As"
+			],
+			[
+				"ftp",
+				"SFTP: Show Panel"
+			],
+			[
+				"pacak",
+				"Package Control: List Packages"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 494.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/views/beliefsPart2Explore.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/pioneers.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/landing.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/team.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/about.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-content/themes/twentytwelve/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-content/themes/twentytwelve/content.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-content/themes/twentytwelve/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/home.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/beliefs/survey2.php",
+		"/Users/dennieriechelman/Desktop/test",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/sendmail.php",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/BracketHighlighter/Default (OSX).sublime-keymap",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/views/card.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/templates/templates.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/beliefs/intro.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/beliefs/survey.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/beliefs/saveprofile.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/beliefs.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/beliefs/favor.php",
+		"/Users/dennieriechelman/Documents/Aletheio/Database backups/aletheio_prototype1_0_2013-01-22.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-content/themes/twentytwelve/comments.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-includes/comment-template.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-content/themes/twentytwelve/functions.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/css/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-content/themes/twentytwelve/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/test/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/test/test.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/test/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/pages/page6.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/views/beliefsPart2Test.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/yeomantest/test.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/yeomantest/test.html",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/JSLint/JSLint.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/main_normal.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/yeomantest/app/test.php",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/sublime-jslint/sublime-jslint.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/css/landing/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/css/landing/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/views/showChosen.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/beliefs/beliefs.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/routes/routes.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/libraries/libraries.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/views/beliefsPart2.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/views/card_holder.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/views/cardsInRow_holder.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/views/beliefsPart2Evaluation.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/views/beliefsPart2Creation.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/views/beliefsPart2Decision.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/pioneerlogin.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/sendMail1.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/beliefs/thankyou.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/models/cards.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/sendPioneer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/sftp-config.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/sendMail.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/helpers/mcapi_helper.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/helpers/mcapi.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/helpers/Mcapi.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/libraries/Mcapi.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/libraries/config_chimp.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/libraries/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/libraries/config.inc.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/placeholder.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/css/placeholder.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/pioneerlogin.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/checkpassword.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/css/landing/reset.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-content/themes/twentytwelve/content-page.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-content/themes/twentytwelve/960.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-content/themes/twentytwelve/footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-content/themes/twentytwelve/960.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-content/themes/twentyeleven/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/pages/page7.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/believes.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/book.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/beliefs/I should never fail.",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/auth.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/app.build.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/includes/nav_beliefs_part1.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/jqueryui.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/app.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/config/database.php",
+		"/Users/dennieriechelman/Desktop/Contact prototype.rtf",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/jquery-ui.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/r.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/pages/page7.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/believes.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/getcard.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/savecard.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/css/grid.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/css/css",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/css/reset.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/views/pageHolder.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/config/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/config/routes.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/collections/beliefsPart2.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/models/beliefsPart2.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/pages/page6.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/views/includes/nav_beliefs_part1.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/views/pageView.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/collections/cardsInRow.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/collections/showChosen.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/models/showChosen.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/pages/page8.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/collections/card.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/models/card.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/.htaccess",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/beliefs.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/img/beliefs",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/beliefs/intro",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/redirect.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/landing.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/about.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/team.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/pioneers.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/.htaccess",
+		"/Users/dennieriechelman/Desktop/emailadresses.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/views/cardsInRow.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/css/style_old.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/views/beliefsPart.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/models/believesPart2.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/collections/believesPart2.js",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-content/themes/twentytwelve",
+			"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0",
+			"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-content/themes/twentytwelve",
+			"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0",
+			"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-content/themes/twentytwelve",
+			"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-content/themes",
+			"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0",
+			"<project>",
+			"/Applications/XAMPP/xamppfiles/htdocs/opencart",
+			"/Applications/XAMPP/xamppfiles/htdocs",
+			"/Applications/XAMPP/xamppfiles/htdocs/opencart",
+			"/Applications/XAMPP/xamppfiles/htdocs",
+			"/Applications/XAMPP/xamppfiles/htdocs/opencart"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cool",
+			"intro_extra_info",
+			"none",
+			"textarea",
+			"input",
+			"nr1",
+			"asdasdasdasdasddas",
+			"surveyFrame",
+			"ss-form",
+			"surveyFrame",
+			"surveryFrame",
+			"	function survey() {\n			$this->load->view('beliefs/survey');\n		}\n",
+			"asdasdf",
+			"intro",
+			"evaluation",
+			"$(\"",
+			"entry_5",
+			"anythingElse",
+			"floppie",
+			"mailChimpDone",
+			"one thought",
+			"site-content article",
+			"id=\"entry",
+			"entry",
+			"destination",
+			"extend",
+			"new",
+			"evaluation",
+			"explore",
+			"about",
+			"wrapper",
+			"main",
+			"wrapper",
+			"container_12",
+			"home",
+			"container_12",
+			"about",
+			"back_arrow",
+			"#/part2/explore",
+			"user_cards",
+			"mudda",
+			"muddi",
+			"driechel",
+			"Van: aletheio@gator72.hostgator.com",
+			"submitPassword",
+			"closer_look",
+			"your beliefs",
+			"big_man_grid",
+			"nav_about",
+			"nav_team",
+			"inline",
+			"body .site",
+			"comments-link",
+			"contents-link",
+			"comments-link",
+			"twentytwelve_entry_meta",
+			"cate",
+			"entry-meta",
+			"wp_list_categories",
+			"hide",
+			"cate",
+			"entry-meta",
+			"grid_3",
+			"submitButton",
+			"</form",
+			"	label.ss-q-title {\n		@include slab(2.3);\n	}\n",
+			"form",
+			"creation",
+			"evaluation",
+			"what_you_wrote",
+			"intro_line",
+			"congrat",
+			"end_link",
+			"decision",
+			"explore",
+			"chosenBelief",
+			"beliefsPart2View",
+			"beliefsPart2View\nbeliefsPart2View",
+			"beliefsPart2View",
+			"part2intro",
+			"intro",
+			"thankyou_main_wrapper",
+			"p>",
+			"evalu",
+			"test",
+			"explore",
+			"creation",
+			"$('#backButton').on('click'",
+			"backButton",
+			"chosen",
+			"sort",
+			"congrat",
+			"\"card",
+			". ,",
+			"-",
+			"redirect",
+			"congrat",
+			"explore1",
+			"Van: aletheio@gator72.hostgat",
+			"jqueryui",
+			")",
+			"navigation_part1",
+			"favor_main_wrapper",
+			"assets",
+			"placeholder",
+			"input",
+			"test",
+			"advantage",
+			"test",
+			"form",
+			"vs",
+			"more_info",
+			"info",
+			"more_info",
+			"part2DecisionHeader",
+			"part2CreationHeader",
+			"evaluation_button",
+			"margin_header",
+			"part2intr\nmargin_header",
+			"part2intr\npart2intr",
+			"extra",
+			"window.pageHolderGlobal.collection",
+			"pageHolderGlobal",
+			"new pageview",
+			"'../../",
+			"chosen",
+			"font-size",
+			"body"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/css/style.scss",
+					"settings":
+					{
+						"buffer_size": 12502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2715,
+								2715
+							]
+						],
+						"settings":
+						{
+							"auto_indent": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1827.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/templates/templates.html",
+					"settings":
+					{
+						"buffer_size": 12632,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11619,
+								11619
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4416.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/index.html",
+					"settings":
+					{
+						"buffer_size": 113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/assets/js/views/beliefsPart2Test.js",
+					"settings":
+					{
+						"buffer_size": 2045,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 285.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/getcard.php",
+					"settings":
+					{
+						"buffer_size": 1285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								213,
+								213
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/models/cards.php",
+					"settings":
+					{
+						"buffer_size": 4193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 351.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/controllers/auth.php",
+					"settings":
+					{
+						"buffer_size": 20160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2073.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/beliefs/intro.php",
+					"settings":
+					{
+						"buffer_size": 4847,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4119,
+								4119
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 472.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/pages/page7.php",
+					"settings":
+					{
+						"buffer_size": 929,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								899,
+								899
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 552.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.jslint_result_view":
+	{
+		"height": 122.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"templat",
+				"assets/js/templates/templates.html"
+			],
+			[
+				"land",
+				"application/views/landing.php"
+			],
+			[
+				"home",
+				"application/views/home.php"
+			],
+			[
+				"about",
+				"application/views/about.php"
+			],
+			[
+				"team",
+				"application/views/team.php"
+			],
+			[
+				"send",
+				"application/controllers/sendmail.php"
+			],
+			[
+				"pioner",
+				"application/views/pioneers.php"
+			],
+			[
+				"sur",
+				"application/views/beliefs/survey2.php"
+			],
+			[
+				"surv",
+				"application/views/beliefs/survey2.php"
+			],
+			[
+				"save",
+				"application/views/beliefs/saveprofile.php"
+			],
+			[
+				"surve",
+				"application/views/beliefs/survey.php"
+			],
+			[
+				"template",
+				"assets/js/templates/templates.html"
+			],
+			[
+				"main",
+				"assets/js/main.js"
+			],
+			[
+				"card",
+				"assets/js/views/card.js"
+			],
+			[
+				"templ",
+				"assets/js/templates/templates.html"
+			],
+			[
+				"style",
+				"assets/css/style.scss"
+			],
+			[
+				"pioneers",
+				"application/views/pioneers.php"
+			],
+			[
+				"landing",
+				"application/views/landing.php"
+			],
+			[
+				"sty",
+				"assets/css/style.scss"
+			],
+			[
+				"style.scss",
+				"assets/css/landing/style.scss"
+			],
+			[
+				"librar",
+				"assets/js/libraries/libraries.js"
+			],
+			[
+				"librarie",
+				"assets/js/libraries/libraries.js"
+			],
+			[
+				"routes",
+				"assets/js/routes/routes.js"
+			],
+			[
+				"test",
+				"assets/js/views/beliefsPart2Test.js"
+			],
+			[
+				"beliefs",
+				"application/views/beliefs/beliefs.php"
+			],
+			[
+				"cardh",
+				"assets/js/views/card_holder.js"
+			],
+			[
+				"landin",
+				"application/views/landing.php"
+			],
+			[
+				"inc.",
+				"application/libraries/config.inc.php"
+			],
+			[
+				"sendm",
+				"application/controllers/sendMail1.php"
+			],
+			[
+				"savepr",
+				"application/views/beliefs/saveprofile.php"
+			],
+			[
+				"pioneer",
+				"application/views/pioneers.php"
+			],
+			[
+				"tem",
+				"assets/js/templates/templates.html"
+			],
+			[
+				"landingst",
+				"assets/css/landing/style.scss"
+			],
+			[
+				"reset",
+				"assets/css/landing/reset.css"
+			],
+			[
+				"landst",
+				"assets/css/landing/style.scss"
+			],
+			[
+				"favor",
+				"application/views/beliefs/favor.php"
+			],
+			[
+				"belipar2t",
+				"assets/js/views/beliefsPart2Test.js"
+			],
+			[
+				"sf",
+				"sftp-config.json"
+			],
+			[
+				"cardhol",
+				"assets/js/views/card_holder.js"
+			],
+			[
+				"sft",
+				"sftp-config.json"
+			],
+			[
+				"lan",
+				"application/views/landing.php"
+			],
+			[
+				"route",
+				"assets/js/routes/routes.js"
+			],
+			[
+				"page7",
+				"application/views/pages/page7.php"
+			],
+			[
+				"carh",
+				"assets/js/views/card_holder.js"
+			],
+			[
+				"nav",
+				"application/views/includes/nav_beliefs_part1.php"
+			],
+			[
+				"page6",
+				"application/views/pages/page6.php"
+			],
+			[
+				"cards",
+				"application/models/cards.php"
+			],
+			[
+				"style.sc",
+				"assets/css/style.scss"
+			],
+			[
+				"belief",
+				"application/controllers/beliefs.php"
+			],
+			[
+				"css",
+				"assets/css/css"
+			],
+			[
+				"rout",
+				"assets/js/routes/routes.js"
+			],
+			[
+				"st",
+				"assets/css/style.css"
+			],
+			[
+				"believ",
+				"application/views/believes.php"
+			],
+			[
+				"book",
+				"application/views/book.php"
+			],
+			[
+				"app",
+				"assets/js/app.js"
+			],
+			[
+				"model",
+				"application/models/cards.php"
+			],
+			[
+				"cardho",
+				"assets/js/views/card_holder.js"
+			],
+			[
+				"modelcards",
+				"application/models/cards.php"
+			],
+			[
+				"page4",
+				"application/views/pages/page4.php"
+			],
+			[
+				"page3",
+				"application/views/pages/page3.php"
+			],
+			[
+				"page2",
+				"application/views/pages/page2.php"
+			],
+			[
+				"page1",
+				"application/views/pages/page1.php"
+			],
+			[
+				"rou",
+				"assets/js/routes/routes.js"
+			],
+			[
+				"pagr",
+				"assets/js/views/pageHolder.js"
+			],
+			[
+				"pagvi",
+				"assets/js/views/pageView.js"
+			],
+			[
+				"page5",
+				"application/views/pages/page5.php"
+			],
+			[
+				"vie",
+				"assets/js/views/pageView.js"
+			],
+			[
+				"pageh",
+				"assets/js/views/pageHolder.js"
+			],
+			[
+				"pagev",
+				"assets/js/views/pageView.js"
+			],
+			[
+				"view",
+				"assets/js/views/pageView.js"
+			],
+			[
+				"nook",
+				"application/controllers/book.php"
+			],
+			[
+				"templa",
+				"assets/js/templates/templates.html"
+			],
+			[
+				"common",
+				"opencart/catalog/view/javascript/common.js"
+			],
+			[
+				"comm",
+				"opencart/catalog/view/javascript/common.js"
+			],
+			[
+				"commonhead",
+				"opencart/catalog/view/theme/Ynagua/template/common/header.tpl"
+			],
+			[
+				"json",
+				"aletheio/sftp-config.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/dennieriechelman/Documents/Sublime Text/Projects/proto1.1.sublime-project"
+			],
+			[
+				"ope",
+				"/Users/dennieriechelman/Documents/Sublime Text/Projects/opencart.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true
+}

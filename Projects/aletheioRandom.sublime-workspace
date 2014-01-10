@@ -1,0 +1,407 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"random",
+				"randomBackground"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"getR",
+				"getRandomPost"
+			],
+			[
+				"get",
+				"getRandomPost"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"show",
+				"show_what_you_want"
+			],
+			[
+				"sto",
+				"store_values"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"fonts",
+				"font-size	zen:css_properties"
+			],
+			[
+				"n",
+				"no-repeat"
+			],
+			[
+				"fsi",
+				"font-size	zen:css_properties"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/aletheioRandom/assets/js/backboneApp.js",
+			"settings":
+			{
+				"buffer_size": 2740,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"fetc",
+				"Fetch: File"
+			],
+			[
+				"fetch",
+				"Fetch: File"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			],
+			[
+				"javc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pros",
+				"Project: Save As"
+			],
+			[
+				"proj",
+				"Project: Save As"
+			],
+			[
+				"ftp",
+				"SFTP: Show Panel"
+			],
+			[
+				"pacak",
+				"Package Control: List Packages"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheioRandom/application/config/database.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheioRandom/application/controllers/welcome.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheioRandom/application/controllers/store_values.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheioRandom/application/controllers/show_values.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheioRandom/application/controllers/moodshowcase.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheioRandom/application/views/moodshowcase.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheioRandom/assets/js/backboneApp.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheio/application/controllers/frontpage.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheioRandom/application/models/store_values_model.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheioRandom/application/views/write_your_own.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheioRandom/assets/css/main.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheio/application/views/whathappened.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheio/application/models/version1.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheioRandom/sftp-config.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheioRandom/assets/js/jquery.validate.min.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheioRandom/application/config/routes.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheioRandom/assets/js/underscore.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheioRandom/application/models/store_values.php",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/ZenCoding/Default.sublime-keymap",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheioRandom/assets/js/jquery.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/default/template/common/home.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/common/home.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/checkout/cart.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/javascript/common.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/checkout/checkout.php",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/dennieriechelman/Desktop/ci/test.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/test/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/magento/app/code/core/Mage/Core/Model/Session/Abstract/Varien.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheio/application/views/becomebetter.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheio/application/views/whathappenedreally.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheio/application/views/accept.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheio/application/config/database.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheio/sftp-config.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheio/assets/css/main.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheio/application/views/frontpage.php",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheio/.git/COMMIT_EDITMSG",
+		"/Applications/MAMP/htdocs/opencart/php.ini",
+		"/Applications/XAMPP/xamppfiles/etc/php.ini"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Applications/XAMPP/xamppfiles/htdocs/opencart"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"navigation",
+			"\";\n",
+			"next",
+			"1",
+			"write_you",
+			"arrow",
+			"title",
+			"this.colors[this.getRandom(0 , 4)]",
+			"\">",
+			"required=\"required\"",
+			"class=\"validate[required]\"",
+			"div class=\"form_span\">",
+			"<div class=\"label_span\">",
+			"th=\"10\"",
+			"10",
+			"this.currentModel",
+			"Emotion",
+			"});\n",
+			"#",
+			";\n",
+			";\">",
+			">\n",
+			"=\"#\"",
+			"\";\n",
+			"p>",
+			"<p>",
+			"span",
+			"next_time",
+			"1",
+			";\n",
+			"../",
+			"addToCart",
+			"</li>",
+			"<li>Posts:",
+			"</li>",
+			"Threads:",
+			"forumtitle",
+			",",
+			"</a>",
+			"<div>\n			<a href=\"forumdisplay.php",
+			"</strong></a>",
+			"forumdisplay.php",
+			"strong",
+			"alt2\" width",
+			"alt2\" w",
+			"alt2\" ",
+			"alt2\"",
+			"td",
+			"328",
+			"sele",
+			"1",
+			"alt1\"",
+			"alt1",
+			"<strong>",
+			"d-\"",
+			"id-",
+			"feeling_link",
+			"close",
+			"hover",
+			"eol",
+			", #modal_pane_inner > h1",
+			"INSTRUCTION",
+			"line",
+			"modal_pane",
+			"close",
+			"delete",
+			"	\n",
+			"220px",
+			"a href=\"<?php"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/aletheioRandom/assets/js/backboneApp.js",
+					"settings":
+					{
+						"buffer_size": 2740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2740
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"check",
+				"catalog/controller/checkout/checkout.php"
+			],
+			[
+				"json",
+				"aletheio/sftp-config.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/dennieriechelman/Documents/Sublime Text/Projects/dragdrop.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,45 @@
+<snippet>
+	<content><![CDATA[
+"use strict";
+ 
+/**
+ * ${TM_FILENAME/.js//g}
+ * ${1:The ${TM_FILENAME/.js//g} module.}
+ * @author ${2:$TM_FULLNAME}
+ */
+define(["${3:jquery}"], function(${4}) {
+	/**
+	 * Initializes this view model.
+	 */
+	var initialize = function() {
+		$5
+	};
+ 
+	/**
+	 * Returns a string representation of the <code>${TM_FILENAME/.js//g}</code>
+	 * class.
+	 */
+	var toString = function() {
+		return {
+			classname: "${TM_FILENAME/.js//g}",
+			members: {
+				initalize: initialize,
+				toString: toString,
+				${7}
+			}
+		}
+	};
+ 
+	// Call <code>initialize</code> when this module is loaded by requirejs.
+	initialize();
+ 
+	return {
+		toString: toString
+	};
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>newmodule</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

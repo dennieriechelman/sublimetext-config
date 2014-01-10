@@ -1,0 +1,20 @@
+{
+ "folders": [
+  {
+   "path": "/Applications/MAMP/htdocs"
+  }, 
+  {
+   "path": "/Applications/XAMPP/xamppfiles/htdocs/aletheio"
+  }, 
+  {
+   "path": "/Users/dennieriechelman/Desktop/ci", 
+   "file_exclude_patterns": [
+    "/Users/dennieriechelman/Desktop/ci", 
+    "/Users/dennieriechelman/Desktop/ci"
+   ]
+  }, 
+  {
+   "path": "/Applications/XAMPP/xamppfiles/htdocs/test"
+  }
+ ]
+}

@@ -1,0 +1,1508 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"rend",
+				"renderDay"
+			],
+			[
+				"show",
+				"showExplanation"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"upda",
+				"updateTeaseInfo"
+			],
+			[
+				"cookie",
+				"cookie_id"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"perso",
+				"personality_aspect"
+			],
+			[
+				"uniq",
+				"unique_id"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"first",
+				"first_area"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"vertical",
+				"vertical-align"
+			],
+			[
+				"borde",
+				"border-top"
+			],
+			[
+				"believe",
+				"believesInput"
+			],
+			[
+				"chos",
+				"chosenCard"
+			],
+			[
+				"chose",
+				"chosencard"
+			],
+			[
+				"ass",
+				"assessments"
+			],
+			[
+				"as",
+				"assessments"
+			],
+			[
+				"finished",
+				"finishedAssessments"
+			],
+			[
+				"annou",
+				"annoucements_wrapper"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"_",
+				"_set_logged_true  (function)"
+			],
+			[
+				"_set",
+				"_set_logged_true"
+			],
+			[
+				"cooki",
+				"cookieUserId"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"page",
+				"PageHolderCollection"
+			],
+			[
+				"render",
+				"renderBlocks"
+			],
+			[
+				"background-",
+				"background-position"
+			],
+			[
+				"sit",
+				"situAddEl"
+			],
+			[
+				"firs",
+				"firstEntry"
+			],
+			[
+				"situat",
+				"situationsView"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"si",
+				"situationView"
+			],
+			[
+				"valu",
+				"valuable"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"userE",
+				"userExistsInTable  (function)"
+			],
+			[
+				"Card",
+				"CardsInRowCollection"
+			],
+			[
+				"Car",
+				"CardsInRowModel"
+			],
+			[
+				"getCards",
+				"getCardsReturn  (function)"
+			],
+			[
+				"result",
+				"result_array"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"email",
+				"emailAddress"
+			],
+			[
+				"emailAd",
+				"emailAdress"
+			],
+			[
+				"rende",
+				"renderNextButton"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"dra",
+				"dragObj"
+			],
+			[
+				"tx",
+				"text-align"
+			],
+			[
+				"backround",
+				"background-position"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"product",
+				"product-info"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"border-",
+				"border-color	zen:css_properties"
+			],
+			[
+				"no",
+				"no-repeat  (value)"
+			],
+			[
+				"fsi",
+				"font-size	zen:css_properties"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/home.php",
+			"settings":
+			{
+				"buffer_size": 8755,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/feedback/feedback.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/includes/header.php",
+			"settings":
+			{
+				"buffer_size": 771,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/css/basecamp/style.scss",
+			"settings":
+			{
+				"buffer_size": 17582,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/css/style_home.scss",
+			"settings":
+			{
+				"buffer_size": 7447,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/css/trainings/beliefs/style.scss",
+			"settings":
+			{
+				"buffer_size": 4960,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/JSLint/JSLint.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ss",
+				"SFTP: Setup Server…"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"feth",
+				"Fetch: File"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"paca",
+				"Package Control: Remove Package"
+			],
+			[
+				"jsl",
+				"JSLint: Run JSLint"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"req",
+				"Snippet: requiresnippet"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"fetc",
+				"Fetch: File"
+			],
+			[
+				"fe",
+				"Fetch: File"
+			],
+			[
+				"fetch",
+				"Fetch: Manage"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"pa",
+				"Package Control: Create Package File"
+			],
+			[
+				"javc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pros",
+				"Project: Save As"
+			],
+			[
+				"proj",
+				"Project: Save As"
+			],
+			[
+				"ftp",
+				"SFTP: Show Panel"
+			],
+			[
+				"pacak",
+				"Package Control: List Packages"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 494.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/createaccount/trial.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/basecamp/trainings/beliefs/basecamp.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/node/NodeServer-1.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/controllers/basecamp/basecamp.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/models/basecamp/basecampmodel.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/controllers/createaccount/trial.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/auth/register_form.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/auth/change_password_form.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/auth/login_form.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/basecamp/trainings/home.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/controllers/trainings/beliefs.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/placeholder.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/home.php",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/SFTP/Default (OSX).sublime-keymap",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/controllers/process.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/controllers/pages/page9.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/pages/page9.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/models/create_account/main.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/basecamp/basecamp.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/controllers/onboard.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/onboard/personality.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/css/style_home.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/css/bootcamp/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/config/routes.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/onboard/register.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/includes/basecamp/annoucements.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/basecamp/trainings/beliefs/intro.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/includes/basecamp/sidebar.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/basecamp/assessments/assessments.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/basecamp/trainings/beliefs/motivation.php",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/Volcanoes/Default (OSX).sublime-keymap",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/css/style_home.scss",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/landing.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/basecamp/assessments/beliefs/intro.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/book.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/basecamp/assessments/beliefs.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/basecamp/assessments/beliefs/cards.php",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/Goto-CSS-Declaration/Default (OSX).sublime-keymap",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/css/basecamp/style.css",
+		"/Applications/XAMPP/xamppfiles/etc/extra/httpd-vhosts.conf",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/basecamp/views/situationsView.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/trainings/beliefs/views/situationsView.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/controllers/createaccount/registered_user.php",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/Default (OSX).sublime-keymap",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/basecamp/friends/friends.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/basecamp/tools.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/basecamp/inspiration/inspirations.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/basecamp/inspiration/ptts.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/basecamp/inspirations.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/controllers/home.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/css/style_onboard.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/css/basecamp/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/team.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/blog/wp-includes/theme-compat/sidebar.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/css/bootcamp/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/models/basecamp/basecampModel.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/models/basecamp/basecamp.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/basecamp/views/situationView.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/templates/templates.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/onboard/improvement.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/onboard/background_knowledge.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/onboard/life_areas.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/controllers/auth.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/basecamp/assessments/beliefs/beliefs.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/views/beliefsPart2Decision.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/trainings/beliefs/basecamp.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/css/basecamp/style_basecamp.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/onboard/wait.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/models/onboard_model.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/onboard/imrovement.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/models/onboard.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/controllers/welcome.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/controllers/savecard.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/trainings/beliefs/app.build.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/createaccount/payment_thanks.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/config/database.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/controllers/getcard.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/libraries/Tank_auth.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/controllers/trainings/rest.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/trainings/beliefs/main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/basecamp/collection/situation.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/basecamp/models/situation.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/config/rest.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/models/cards.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/views/beliefsPart2Explore.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/app.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/controllers/beliefs.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/pages/page6.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/pages/page7.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/basecamp/templates/templates.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/pages/page8.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/views/pageView.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/collections/beliefsPart2.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/collections/card.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/collections/cardsInRow.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/collections/showChosen.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/models/beliefsPart2.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/models/card.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/models/cardsInRow.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/models/showChosen.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/beliefs/cards.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/beliefs/beliefs.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/basecamp/announcements.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/basecamp/main_page_payed.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/includes/nav.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/basecamp/assessements/beliefs.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/css/style_basecamp.css",
+		"/Users/dennieriechelman/Desktop/basecamp.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/createaccount/user.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/landing.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/controllers/sendMail1.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/application/views/home.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/models/tank_auth/users.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/controllers/createaccount/auth.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/email/welcome-html.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/config/tank_auth.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/config/email.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/controllers/createaccount/user.php",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/includes/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/css/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/controllers/trainings/beliefs/beliefs.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/system/core/MY_router.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/controllers/trainings/basecamp.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/blog/wp-content/themes/twentytwelve/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/blog/wp-content/themes/twentytwelve/style.scss"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Applications/XAMPP/xamppfiles/htdocs/prototype1_1",
+			"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-content/themes/twentytwelve",
+			"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0",
+			"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-content/themes/twentytwelve",
+			"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0",
+			"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-content/themes/twentytwelve",
+			"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0/wordpress/wp-content/themes",
+			"/Applications/XAMPP/xamppfiles/htdocs/prototype1_0",
+			"<project>",
+			"/Applications/XAMPP/xamppfiles/htdocs/opencart",
+			"/Applications/XAMPP/xamppfiles/htdocs",
+			"/Applications/XAMPP/xamppfiles/htdocs/opencart",
+			"/Applications/XAMPP/xamppfiles/htdocs",
+			"/Applications/XAMPP/xamppfiles/htdocs/opencart"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fbs_click",
+			"false",
+			"is_user_trial",
+			"set_value",
+			"email",
+			"form_error",
+			"nr1",
+			"redirect",
+			"training_announcements",
+			"training_wrapper",
+			"body_register",
+			"size",
+			"color",
+			"offset2",
+			"logo_register",
+			"assessment_wrapper",
+			"div_heading",
+			"div4_wrapper",
+			"what_users_say_wrapper",
+			"151px",
+			"button_slider_free_assessment",
+			"100px",
+			"slider_div",
+			"slider_inner_div",
+			"li",
+			"top",
+			"payment",
+			"cookie",
+			"basecamp",
+			"60px",
+			"true",
+			"true  ",
+			"what_users_say",
+			"jquery",
+			"body_register",
+			"onboard",
+			"absolute",
+			"sidebar",
+			"h1",
+			"content_register",
+			"create_user_login",
+			"ask_do_survey_wrapper",
+			"finished_training_wrapper",
+			"get_training_text",
+			"finished_trial_wrapper",
+			"finished_trial",
+			"row_header",
+			"1",
+			"0",
+			"1",
+			"annoucements",
+			"announcement_ul",
+			"announcements",
+			"jpg",
+			"motivation_title",
+			"black",
+			"black_announcements",
+			"row_ann",
+			"situation_motivation ",
+			"intro",
+			"margin",
+			"row_ann",
+			"intro",
+			"patternFooter",
+			"buttonGiveItATry",
+			"what_users_say",
+			"laptop_text",
+			"laptop_image",
+			"em",
+			"content_assessment",
+			"assessment_wrapper",
+			"content",
+			"assessment_background",
+			"beliefs",
+			"trainings",
+			"active",
+			"trainings",
+			"assessments",
+			"registered_user",
+			"process",
+			"redirect",
+			"getDay",
+			"content_training",
+			"sticky",
+			"border",
+			"86500",
+			"showExplanation",
+			"close_overlay",
+			"buttonX",
+			"row_gathered_inspiration",
+			"inspiration",
+			"inspirations",
+			"data",
+			"inspirations",
+			"jpg",
+			"basecamp/inspirations",
+			"inspiration_wrapper",
+			"buttonPersonalityStyle",
+			"content_openbook",
+			"59323221",
+			"inspiration",
+			"tools",
+			"main_wrapper",
+			"content",
+			"finishedAssessments",
+			"row_startnow",
+			"paying",
+			"fixed_button",
+			"storeMotivation",
+			"input",
+			"situation_buttons",
+			"buttonStart",
+			"tools",
+			"chosenCard",
+			"trainings_overview",
+			"trainings",
+			"true",
+			"alert",
+			"validateInput",
+			"addSituation",
+			"buttonLogin",
+			".common_login",
+			"create_user_login",
+			"progressBar1",
+			"<br>",
+			"part2Congrat",
+			"great work",
+			"redirect"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/home.php",
+					"settings":
+					{
+						"buffer_size": 8755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								898,
+								898
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 224.0,
+						"translation.y": 8.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/js/feedback/feedback.js",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/application/views/includes/header.php",
+					"settings":
+					{
+						"buffer_size": 771,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								771,
+								771
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 42.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/css/basecamp/style.scss",
+					"settings":
+					{
+						"buffer_size": 17582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10349,
+								10349
+							]
+						],
+						"settings":
+						{
+							"auto_indent": true,
+							"class_or_id": "content_training",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"volcanise": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9166.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/css/style_home.scss",
+					"settings":
+					{
+						"buffer_size": 7447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3276,
+								3276
+							]
+						],
+						"settings":
+						{
+							"auto_indent": true,
+							"class_or_id": "content_training",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"volcanise": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2330.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/prototype1_1/assets/css/trainings/beliefs/style.scss",
+					"settings":
+					{
+						"buffer_size": 4960,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								628,
+								628
+							]
+						],
+						"settings":
+						{
+							"class_or_id": "content_training",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.jslint_result_view":
+	{
+		"height": 122.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"header",
+				"prototype1_1/application/views/includes/header.php"
+			],
+			[
+				"beliefs/base",
+				"application/views/basecamp/trainings/beliefs/basecamp.php"
+			],
+			[
+				"training",
+				"application/views/basecamp/trainings/home.php"
+			],
+			[
+				"process",
+				"application/controllers/process.php"
+			],
+			[
+				"style_home",
+				"assets/css/style_home.scss"
+			],
+			[
+				"style",
+				"assets/css/style_home.css"
+			],
+			[
+				"onb",
+				"application/controllers/onboard.php"
+			],
+			[
+				"base",
+				"application/controllers/basecamp/basecamp.php"
+			],
+			[
+				"ann",
+				"application/views/includes/basecamp/annoucements.php"
+			],
+			[
+				"basecamp",
+				"application/controllers/basecamp/basecamp.php"
+			],
+			[
+				"announ",
+				"application/views/includes/basecamp/annoucements.php"
+			],
+			[
+				"style_",
+				"assets/css/style_home.scss"
+			],
+			[
+				"side",
+				"application/views/includes/basecamp/sidebar.php"
+			],
+			[
+				"home",
+				"application/views/home.php"
+			],
+			[
+				"insp",
+				"application/views/basecamp/inspirations.php"
+			],
+			[
+				"team",
+				"application/views/team.php"
+			],
+			[
+				"sider",
+				"application/views/includes/basecamp/sidebar.php"
+			],
+			[
+				"ideb",
+				"blog/wp-includes/theme-compat/sidebar.php"
+			],
+			[
+				"styob",
+				"assets/css/style_onboard.scss"
+			],
+			[
+				"sidebar",
+				"application/views/includes/basecamp/sidebar.php"
+			],
+			[
+				"rout",
+				"application/config/routes.php"
+			],
+			[
+				"style_h",
+				"assets/css/style_home.scss"
+			],
+			[
+				"page9",
+				"application/views/pages/page9.php"
+			],
+			[
+				"templa",
+				"assets/js/templates/templates.html"
+			],
+			[
+				"accounma",
+				"application/models/create_account/main.php"
+			],
+			[
+				"creatactri",
+				"application/controllers/createaccount/trial.php"
+			],
+			[
+				"basec",
+				"application/views/basecamp/basecamp.php"
+			],
+			[
+				"annouc",
+				"application/views/includes/basecamp/annoucements.php"
+			],
+			[
+				"traiho",
+				"application/views/basecamp/trainings/home.php"
+			],
+			[
+				"style_hom",
+				"assets/css/style_home.scss"
+			],
+			[
+				"register",
+				"application/controllers/createaccount/registered_user.php"
+			],
+			[
+				"pro",
+				"application/controllers/process.php"
+			],
+			[
+				"style_ho",
+				"assets/css/style_home.scss"
+			],
+			[
+				"cards",
+				"application/models/cards.php"
+			],
+			[
+				"saveca",
+				"application/controllers/savecard.php"
+			],
+			[
+				"page7",
+				"application/views/pages/page7.php"
+			],
+			[
+				"templates",
+				"assets/js/templates/templates.html"
+			],
+			[
+				"templ",
+				"assets/js/basecamp/templates/templates.html"
+			],
+			[
+				"getc",
+				"application/controllers/getcard.php"
+			],
+			[
+				"getcar",
+				"application/controllers/getcard.php"
+			],
+			[
+				"nav",
+				"application/views/includes/nav.php"
+			],
+			[
+				"stbas",
+				"assets/css/basecamp/style_basecamp.scss"
+			],
+			[
+				"proc",
+				"application/controllers/process.php"
+			],
+			[
+				"stylebas",
+				"assets/css/basecamp/style_basecamp.scss"
+			],
+			[
+				"sylhom",
+				"assets/css/style_home.scss"
+			],
+			[
+				"stylho",
+				"assets/css/style_home.css"
+			],
+			[
+				"stlehom",
+				"assets/css/style_home.scss"
+			],
+			[
+				"proces",
+				"application/controllers/process.php"
+			],
+			[
+				"proce",
+				"application/controllers/process.php"
+			],
+			[
+				"boots",
+				"assets/css/bootstrap.css"
+			],
+			[
+				"land",
+				"application/views/landing.php"
+			],
+			[
+				"about",
+				"application/views/about.php"
+			],
+			[
+				"send",
+				"application/controllers/sendmail.php"
+			],
+			[
+				"pioner",
+				"application/views/pioneers.php"
+			],
+			[
+				"sur",
+				"application/views/beliefs/survey2.php"
+			],
+			[
+				"surv",
+				"application/views/beliefs/survey2.php"
+			],
+			[
+				"save",
+				"application/views/beliefs/saveprofile.php"
+			],
+			[
+				"surve",
+				"application/views/beliefs/survey.php"
+			],
+			[
+				"template",
+				"assets/js/templates/templates.html"
+			],
+			[
+				"main",
+				"assets/js/main.js"
+			],
+			[
+				"card",
+				"assets/js/views/card.js"
+			],
+			[
+				"pioneers",
+				"application/views/pioneers.php"
+			],
+			[
+				"landing",
+				"application/views/landing.php"
+			],
+			[
+				"sty",
+				"assets/css/style.scss"
+			],
+			[
+				"style.scss",
+				"assets/css/landing/style.scss"
+			],
+			[
+				"librar",
+				"assets/js/libraries/libraries.js"
+			],
+			[
+				"librarie",
+				"assets/js/libraries/libraries.js"
+			],
+			[
+				"routes",
+				"assets/js/routes/routes.js"
+			],
+			[
+				"test",
+				"assets/js/views/beliefsPart2Test.js"
+			],
+			[
+				"beliefs",
+				"application/views/beliefs/beliefs.php"
+			],
+			[
+				"cardh",
+				"assets/js/views/card_holder.js"
+			],
+			[
+				"landin",
+				"application/views/landing.php"
+			],
+			[
+				"inc.",
+				"application/libraries/config.inc.php"
+			],
+			[
+				"sendm",
+				"application/controllers/sendMail1.php"
+			],
+			[
+				"savepr",
+				"application/views/beliefs/saveprofile.php"
+			],
+			[
+				"pioneer",
+				"application/views/pioneers.php"
+			],
+			[
+				"tem",
+				"assets/js/templates/templates.html"
+			],
+			[
+				"landingst",
+				"assets/css/landing/style.scss"
+			],
+			[
+				"reset",
+				"assets/css/landing/reset.css"
+			],
+			[
+				"landst",
+				"assets/css/landing/style.scss"
+			],
+			[
+				"favor",
+				"application/views/beliefs/favor.php"
+			],
+			[
+				"belipar2t",
+				"assets/js/views/beliefsPart2Test.js"
+			],
+			[
+				"sf",
+				"sftp-config.json"
+			],
+			[
+				"cardhol",
+				"assets/js/views/card_holder.js"
+			],
+			[
+				"sft",
+				"sftp-config.json"
+			],
+			[
+				"lan",
+				"application/views/landing.php"
+			],
+			[
+				"route",
+				"assets/js/routes/routes.js"
+			],
+			[
+				"carh",
+				"assets/js/views/card_holder.js"
+			],
+			[
+				"page6",
+				"application/views/pages/page6.php"
+			],
+			[
+				"style.sc",
+				"assets/css/style.scss"
+			],
+			[
+				"belief",
+				"application/controllers/beliefs.php"
+			],
+			[
+				"css",
+				"assets/css/css"
+			],
+			[
+				"st",
+				"assets/css/style.css"
+			],
+			[
+				"believ",
+				"application/views/believes.php"
+			],
+			[
+				"book",
+				"application/views/book.php"
+			],
+			[
+				"templat",
+				"assets/js/templates/templates.html"
+			],
+			[
+				"app",
+				"assets/js/app.js"
+			],
+			[
+				"model",
+				"application/models/cards.php"
+			],
+			[
+				"cardho",
+				"assets/js/views/card_holder.js"
+			],
+			[
+				"modelcards",
+				"application/models/cards.php"
+			],
+			[
+				"page4",
+				"application/views/pages/page4.php"
+			],
+			[
+				"page3",
+				"application/views/pages/page3.php"
+			],
+			[
+				"page2",
+				"application/views/pages/page2.php"
+			],
+			[
+				"page1",
+				"application/views/pages/page1.php"
+			],
+			[
+				"rou",
+				"assets/js/routes/routes.js"
+			],
+			[
+				"pagr",
+				"assets/js/views/pageHolder.js"
+			],
+			[
+				"pagvi",
+				"assets/js/views/pageView.js"
+			],
+			[
+				"page5",
+				"application/views/pages/page5.php"
+			],
+			[
+				"vie",
+				"assets/js/views/pageView.js"
+			],
+			[
+				"pageh",
+				"assets/js/views/pageHolder.js"
+			],
+			[
+				"pagev",
+				"assets/js/views/pageView.js"
+			],
+			[
+				"view",
+				"assets/js/views/pageView.js"
+			],
+			[
+				"nook",
+				"application/controllers/book.php"
+			],
+			[
+				"common",
+				"opencart/catalog/view/javascript/common.js"
+			],
+			[
+				"comm",
+				"opencart/catalog/view/javascript/common.js"
+			],
+			[
+				"commonhead",
+				"opencart/catalog/view/theme/Ynagua/template/common/header.tpl"
+			],
+			[
+				"json",
+				"aletheio/sftp-config.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/dennieriechelman/Documents/Sublime Text/Projects/opencart.sublime-project"
+			],
+			[
+				"ope",
+				"/Users/dennieriechelman/Documents/Sublime Text/Projects/opencart.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true
+}

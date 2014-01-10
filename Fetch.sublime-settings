@@ -1,0 +1,14 @@
+{
+	"files":
+	{
+		"backbone": "https://raw.github.com/documentcloud/backbone/master/backbone-min.js",
+		"jquery": "http://code.jquery.com/jquery.min.js",
+		"require": "http://requirejs.org/docs/release/2.1.2/minified/require.js",
+		"underscore": "http://underscorejs.org/underscore-min.js"
+	},
+	"packages":
+	{
+		"codeigniter": " http://codeigniter.com/download.php",
+		"html5_boilerplate": "https://github.com/h5bp/html5-boilerplate/zipball/master"
+	}
+}

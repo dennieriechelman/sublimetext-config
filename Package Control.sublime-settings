@@ -1,0 +1,47 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Backbone.js",
+		"BracketHighlighter",
+		"CSSFormat",
+		"CSSTidy",
+		"CTags",
+		"DocBlockr",
+		"EasyMotion",
+		"Emmet",
+		"Goto-CSS-Declaration",
+		"GoToClass",
+		"Hayaku - tools for writing CSS faster",
+		"HTML-CSS-JS Prettify",
+		"HtmlTidy",
+		"Laravel 4 Snippets",
+		"Laravel Blade Highlighter",
+		"Laravel Generator",
+		"Laravel Snippets",
+		"LiveStyle",
+		"Modific",
+		"Nettuts+ Fetch",
+		"Package Control",
+		"PHPUnit",
+		"PHPUnit Completions",
+		"Require Helper",
+		"Sass",
+		"SCSS",
+		"SFTP",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeREPL",
+		"SublimeXiki",
+		"Tag",
+		"TrailingSpaces",
+		"Underscore.js Snippets",
+		"Web Inspector",
+		"ZenCoding"
+	],
+	"repositories":
+	[
+		"https://bitbucket.org/sublimator/volcanoes"
+	]
+}

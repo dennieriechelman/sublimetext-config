@@ -1,0 +1,579 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tx",
+				"text-align"
+			],
+			[
+				"backround",
+				"background-position"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"product",
+				"product-info"
+			],
+			[
+				"font",
+				"font-size	zen:css_properties"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"border-",
+				"border-color	zen:css_properties"
+			],
+			[
+				"no",
+				"no-repeat  (value)"
+			],
+			[
+				"fsi",
+				"font-size	zen:css_properties"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/sternengallery/css/style.css",
+			"settings":
+			{
+				"buffer_size": 34912,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"pa",
+				"Package Control: Create Package File"
+			],
+			[
+				"javc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pros",
+				"Project: Save As"
+			],
+			[
+				"proj",
+				"Project: Save As"
+			],
+			[
+				"ftp",
+				"SFTP: Show Panel"
+			],
+			[
+				"pacak",
+				"Package Control: List Packages"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_aktion.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/includes/geschaftsSubmenu.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/home.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_hotels.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/index2.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/anlasse_home.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/anlasse_hochzeit.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/sendmail.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/anlasse_silvester.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/includes/geschaftKundenMatrix.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/anlasse_geburtstag.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/includes/nav.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/includes/zumshop.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/referenzen.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/includes/anruf.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/includes/preisListe.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/contact.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/jobs.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_hochzeit.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/sftp-config.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_clubs.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_firmen.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_grossveranstaltung.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_home.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/impressum.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/sendContactMail.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/includes/geschaftsSubmenuText.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/includes/footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/includes/geschaftsBeforeFooter.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/sftp-config.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/home.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_clubs.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_grossveranstaltung.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_firmen.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/includes/submenu.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/anlasse_silvester.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/anlasse_hochzeit.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/contact.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/anlasse_geburtstag.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/anlasse_home.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_home.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_hochzeit.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/referenzen.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/anlasse_sylvester.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_hotels.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_aktion.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftkunden_aktion.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/contac.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/product_fluid.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/header.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/stylesheet/mystyle/grid.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/stylesheet/mystyle/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/product/category.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/product/product.tpl",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/BracketHighlighter/Default (OSX).sublime-keymap",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/product/untitled",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/javascript/common.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/openoriginaal/catalog/view/theme/default/template/product/product.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/product_overview.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/language/english/common/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/.git/MERGE_MSG",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/.git/COMMIT_EDITMSG",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/header2.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/product.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/css/grid.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/css/bootstrap.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/product/category.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/common/content_bottom.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/module/featured.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/stylesheet/mystyle/style_old.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/css/style.css",
+		"/Users/dennieriechelman/Downloads/zo_packages.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/css/comingsoon.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/home.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/model/catalog/product.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/stylesheet/stylesheet.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/language/english/module/cart.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/module/cart.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/module/cart.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/common/column_right.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/bootstrap/css/bootstrap.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/common/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/model/setting/extension.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/system/engine/controller.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/content_bottom.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/content_top.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/css/reset.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/css/text.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/bootstrap/css/grid.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/bootstrap/css/reset.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/bootstrap/css/style.css",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/test/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/magento/app/code/core/Mage/Core/Model/Session/Abstract/Varien.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheio/application/views/becomebetter.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheio/application/views/whathappenedreally.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheio/application/views/accept.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheio/application/config/database.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheio/sftp-config.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheio/assets/css/main.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheio/application/views/frontpage.php",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/Goto-CSS-Declaration/Default (OSX).sublime-keymap",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/aletheio/.git/COMMIT_EDITMSG",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/ZenCoding/Default.sublime-keymap",
+		"/Applications/MAMP/htdocs/opencart/php.ini",
+		"/Applications/XAMPP/xamppfiles/etc/php.ini"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Applications/XAMPP/xamppfiles/htdocs/opencart",
+			"/Applications/XAMPP/xamppfiles/htdocs",
+			"/Applications/XAMPP/xamppfiles/htdocs/opencart",
+			"/Applications/XAMPP/xamppfiles/htdocs",
+			"/Applications/XAMPP/xamppfiles/htdocs/opencart"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"com",
+			"kontakt",
+			"aktion",
+			"gesch_aktion_wrapper",
+			".gesch_submenu",
+			".gesch_submenu2",
+			"gesch_sub",
+			"geschaftsSubmenuText",
+			"herz_container",
+			"anlässeValentinstagCatchHerz",
+			"spriteSilvester",
+			".anlasse_submenu_sylvester_active",
+			".silvester",
+			"silvester",
+			"valentin",
+			">\n",
+			"hover",
+			"no_underline",
+			"kontakt",
+			"•",
+			"relative",
+			"text_about",
+			"big_one",
+			"10",
+			"sylvester",
+			"wrapper",
+			"gross",
+			"hover",
+			"ctive",
+			"geburtstag",
+			"});\n",
+			"galler",
+			"left",
+			"html",
+			"text_about",
+			"			\n",
+			"wrapper_anl",
+			".geschafts_aktion_aktive",
+			".",
+			"grid_4",
+			"anlasse_submenu",
+			"grid_4",
+			"active",
+			"anlasse_submenu_geburts",
+			"active",
+			"html",
+			"text_about",
+			"html",
+			"anlasse_sch",
+			"html",
+			"referenzen",
+			"geschaft",
+			"anlasse",
+			"referenzen_secondpic",
+			";\n",
+			"referenzen_thirdpic",
+			"referenzen_secondpic",
+			"feuerwerk",
+			"gross_",
+			"gross",
+			".geschaftskunden_submenu_aktion_active {\n    height: 135px;\n    width: 157px;\n    height: 135px;\n    width: 157px;\n    background: url(../img/geschaft/sub/1selected.jpg) no-repeat;\n}\n",
+			"activ",
+			"hochzeit",
+			"hotels",
+			"otel_",
+			"hotel",
+			"active",
+			"hotels_",
+			"firmen",
+			"p",
+			"ext",
+			"active",
+			",",
+			"p",
+			"active",
+			".",
+			"_active",
+			"\">",
+			"hochzeit",
+			"gesch_firmen_sprite3",
+			"hochzeit",
+			"gesch_hochzeit_sprite1",
+			"gesch_hochzeit_text",
+			"gesch_sternen_service_balk",
+			"gesch_sternen_service_wrapper",
+			"gesch_sternen_service",
+			"active",
+			"grid_2",
+			"gross",
+			"hotel",
+			"firmen",
+			"wedding",
+			"geschaftskunden_submenu_wedding",
+			"aktion",
+			"gesch_aktion_silvester_txtoverpic",
+			"h1",
+			".gesch_aktion_weihnachts_text p {\n    margin-top: 30px;\n}",
+			"gesch_aktion_weihnachts_txtoverpic",
+			"gesch_aktion_silvester_text",
+			"gesch_aktion_weihnachts",
+			"gesch_aktion_weihnachts_text",
+			"190",
+			"anlasse_submenu",
+			";\n",
+			"p>",
+			"analasse",
+			"_2",
+			"_1",
+			"185px",
+			"{",
+			".",
+			"s=",
+			"200px",
+			"126",
+			"301px",
+			"repeat",
+			"Hochzeit",
+			"hochzeit",
+			"div",
+			"grid_4",
+			";\n",
+			"div",
+			".",
+			"repeat",
+			"firework_backgroun",
+			"ruf_an",
+			"20",
+			"span"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/sternengallery/css/style.css",
+					"settings":
+					{
+						"buffer_size": 34912,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25512,
+								25512
+							]
+						],
+						"settings":
+						{
+							"auto_indent": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"sendm",
+				"sendmail.php"
+			],
+			[
+				"geschaftssubmenu",
+				"includes/geschaftsSubmenu.php"
+			],
+			[
+				"ges",
+				"geschaftskunden_aktion.php"
+			],
+			[
+				"anls",
+				"anlasse_silvester.php"
+			],
+			[
+				"anlass",
+				"anlasse_hochzeit.php"
+			],
+			[
+				"nav",
+				"includes/nav.php"
+			],
+			[
+				"zum",
+				"includes/zumshop.php"
+			],
+			[
+				"geschaftkundenmatrix",
+				"includes/geschaftKundenMatrix.php"
+			],
+			[
+				"style",
+				"css/style.css"
+			],
+			[
+				"common",
+				"opencart/catalog/view/javascript/common.js"
+			],
+			[
+				"comm",
+				"opencart/catalog/view/javascript/common.js"
+			],
+			[
+				"commonhead",
+				"opencart/catalog/view/theme/Ynagua/template/common/header.tpl"
+			],
+			[
+				"json",
+				"aletheio/sftp-config.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/dennieriechelman/Documents/Sublime Text/Projects/proto1.1.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true
+}

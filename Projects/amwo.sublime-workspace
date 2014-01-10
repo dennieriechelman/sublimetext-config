@@ -1,0 +1,1222 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"style"
+			],
+			[
+				"dra",
+				"dragObj"
+			],
+			[
+				"tx",
+				"text-align"
+			],
+			[
+				"backround",
+				"background-position"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"product",
+				"product-info"
+			],
+			[
+				"font",
+				"font-size	zen:css_properties"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"border-",
+				"border-color	zen:css_properties"
+			],
+			[
+				"no",
+				"no-repeat  (value)"
+			],
+			[
+				"fsi",
+				"font-size	zen:css_properties"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/amwo2/amwo2/wp-content/themes/dennie/index.php",
+			"settings":
+			{
+				"buffer_size": 12821,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/amwo2/amwo2/wp-content/themes/dennie/css/style.css",
+			"settings":
+			{
+				"buffer_size": 15306,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/amwo2/amwo2/wp-content/themes/dennie/css/flexslider.css",
+			"settings":
+			{
+				"buffer_size": 4258,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/amwo2/amwo2/wp-content/themes/dennie/js/filter/filter3.js",
+			"settings":
+			{
+				"buffer_size": 8550,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/amwo2/amwo2/wp-content/themes/dennie/js/scroll.js",
+			"settings":
+			{
+				"buffer_size": 9589,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 2779 files for \"sftp\"\n\n/Applications/XAMPP/xamppfiles/htdocs/amwo2/amwo2/sftp-config.json:\n    2      // The tab key will cycle through the settings when first created\n    3      \n    4:     // sftp, ftp or ftps\n    5      \"type\": \"ftp\",\n    6      \"save_before_upload\": true,\n    .\n   18      \n   19      \"remote_path\": \"/www/amwowp/\",\n   20:     \"ignore_regex\": \"(\\\\.sublime-project|\\\\.sublime-workspace|sftp-config(-alt\\\\d?)?\\\\.json|sftp-settings\\\\.json|/venv/|\\\\.svn|\\\\.hg|\\\\.git|\\\\.bzr|_darcs|CVS|\\\\.DS_Store|Thumbs\\\\.db|desktop\\\\.ini)\",\n   21      //\"file_permissions\": \"664\",\n   22      //\"dir_permissions\": \"775\",\n   ..\n   25      \"ftp_passive_mode\": false\n   26      //\"ssh_key_file\": \"~/.ssh/id_rsa\",\n   27:     //\"sftp_flags\": \"-F /path/to/ssh_config\",\n   28      \n   29      //\"preserve_modification_times\": false,\n\n/Applications/XAMPP/xamppfiles/htdocs/amwo2/amwo2/wordpress/wp-admin/includes/class-wp-filesystem-ssh2.php:\n   32   *\n   33   * Restart Apache!\n   34:  * Check phpinfo() streams to confirm that: ssh2.shell, ssh2.exec, ssh2.tunnel, ssh2.scp, ssh2.sftp  exist.\n   35   *\n   36   * Note: as of WordPress 2.8, This utilises the PHP5+ function 'stream_get_contents'\n   ..\n   44  \n   45  	var $link = false;\n   46: 	var $sftp_link = false;\n   47  	var $keys = false;\n   48  	var $errors = array();\n   ..\n  125  		}\n  126  \n  127: 		$this->sftp_link = ssh2_sftp($this->link);\n  128  \n  129  		return true;\n  ...\n  153  	function get_contents($file, $type = '', $resumepos = 0 ) {\n  154  		$file = ltrim($file, '/');\n  155: 		return file_get_contents('ssh2.sftp://' . $this->sftp_link . '/' . $file);\n  156  	}\n  157  \n  158  	function get_contents_array($file) {\n  159  		$file = ltrim($file, '/');\n  160: 		return file('ssh2.sftp://' . $this->sftp_link . '/' . $file);\n  161  	}\n  162  \n  163  	function put_contents($file, $contents, $mode = false ) {\n  164  		$file = ltrim($file, '/');\n  165: 		$ret = file_put_contents('ssh2.sftp://' . $this->sftp_link . '/' . $file, $contents);\n  166  \n  167  		$this->chmod($file, $mode);\n  ...\n  216  \n  217  	function owner($file) {\n  218: 		$owneruid = @fileowner('ssh2.sftp://' . $this->sftp_link . '/' . ltrim($file, '/'));\n  219  		if ( ! $owneruid )\n  220  			return false;\n  ...\n  226  \n  227  	function getchmod($file) {\n  228: 		return substr(decoct(@fileperms( 'ssh2.sftp://' . $this->sftp_link . '/' . ltrim($file, '/') )),3);\n  229  	}\n  230  \n  231  	function group($file) {\n  232: 		$gid = @filegroup('ssh2.sftp://' . $this->sftp_link . '/' . ltrim($file, '/'));\n  233  		if ( ! $gid )\n  234  			return false;\n  ...\n  249  \n  250  	function move($source, $destination, $overwrite = false) {\n  251: 		return @ssh2_sftp_rename($this->link, $source, $destination);\n  252  	}\n  253  \n  254  	function delete($file, $recursive = false, $type = false) {\n  255  		if ( 'f' == $type || $this->is_file($file) )\n  256: 			return ssh2_sftp_unlink($this->sftp_link, $file);\n  257  		if ( ! $recursive )\n  258: 			 return ssh2_sftp_rmdir($this->sftp_link, $file);\n  259  		$filelist = $this->dirlist($file);\n  260  		if ( is_array($filelist) ) {\n  ...\n  263  			}\n  264  		}\n  265: 		return ssh2_sftp_rmdir($this->sftp_link, $file);\n  266  	}\n  267  \n  268  	function exists($file) {\n  269  		$file = ltrim($file, '/');\n  270: 		return file_exists('ssh2.sftp://' . $this->sftp_link . '/' . $file);\n  271  	}\n  272  \n  273  	function is_file($file) {\n  274  		$file = ltrim($file, '/');\n  275: 		return is_file('ssh2.sftp://' . $this->sftp_link . '/' . $file);\n  276  	}\n  277  \n  278  	function is_dir($path) {\n  279  		$path = ltrim($path, '/');\n  280: 		return is_dir('ssh2.sftp://' . $this->sftp_link . '/' . $path);\n  281  	}\n  282  \n  283  	function is_readable($file) {\n  284  		$file = ltrim($file, '/');\n  285: 		return is_readable('ssh2.sftp://' . $this->sftp_link . '/' . $file);\n  286  	}\n  287  \n  288  	function is_writable($file) {\n  289  		$file = ltrim($file, '/');\n  290: 		return is_writable('ssh2.sftp://' . $this->sftp_link . '/' . $file);\n  291  	}\n  292  \n  293  	function atime($file) {\n  294  		$file = ltrim($file, '/');\n  295: 		return fileatime('ssh2.sftp://' . $this->sftp_link . '/' . $file);\n  296  	}\n  297  \n  298  	function mtime($file) {\n  299  		$file = ltrim($file, '/');\n  300: 		return filemtime('ssh2.sftp://' . $this->sftp_link . '/' . $file);\n  301  	}\n  302  \n  303  	function size($file) {\n  304  		$file = ltrim($file, '/');\n  305: 		return filesize('ssh2.sftp://' . $this->sftp_link . '/' . $file);\n  306  	}\n  307  \n  ...\n  317  		if ( ! $chmod )\n  318  			$chmod = FS_CHMOD_DIR;\n  319: 		if ( ! ssh2_sftp_mkdir($this->sftp_link, $path, $chmod, true) )\n  320  			return false;\n  321  		if ( $chown )\n  ...\n  342  \n  343  		$ret = array();\n  344: 		$dir = @dir('ssh2.sftp://' . $this->sftp_link .'/' . ltrim($path, '/') );\n  345  \n  346  		if ( ! $dir )\n\n/Applications/XAMPP/xamppfiles/htdocs/amwo2/amwo2/wp-admin/includes/class-wp-filesystem-ssh2.php:\n   32   *\n   33   * Restart Apache!\n   34:  * Check phpinfo() streams to confirm that: ssh2.shell, ssh2.exec, ssh2.tunnel, ssh2.scp, ssh2.sftp  exist.\n   35   *\n   36   * Note: as of WordPress 2.8, This utilises the PHP5+ function 'stream_get_contents'\n   ..\n   44  \n   45  	var $link = false;\n   46: 	var $sftp_link = false;\n   47  	var $keys = false;\n   48  	var $errors = array();\n   ..\n  125  		}\n  126  \n  127: 		$this->sftp_link = ssh2_sftp($this->link);\n  128  \n  129  		return true;\n  ...\n  153  	function get_contents($file, $type = '', $resumepos = 0 ) {\n  154  		$file = ltrim($file, '/');\n  155: 		return file_get_contents('ssh2.sftp://' . $this->sftp_link . '/' . $file);\n  156  	}\n  157  \n  158  	function get_contents_array($file) {\n  159  		$file = ltrim($file, '/');\n  160: 		return file('ssh2.sftp://' . $this->sftp_link . '/' . $file);\n  161  	}\n  162  \n  163  	function put_contents($file, $contents, $mode = false ) {\n  164  		$file = ltrim($file, '/');\n  165: 		$ret = file_put_contents('ssh2.sftp://' . $this->sftp_link . '/' . $file, $contents);\n  166  \n  167  		$this->chmod($file, $mode);\n  ...\n  216  \n  217  	function owner($file) {\n  218: 		$owneruid = @fileowner('ssh2.sftp://' . $this->sftp_link . '/' . ltrim($file, '/'));\n  219  		if ( ! $owneruid )\n  220  			return false;\n  ...\n  226  \n  227  	function getchmod($file) {\n  228: 		return substr(decoct(@fileperms( 'ssh2.sftp://' . $this->sftp_link . '/' . ltrim($file, '/') )),3);\n  229  	}\n  230  \n  231  	function group($file) {\n  232: 		$gid = @filegroup('ssh2.sftp://' . $this->sftp_link . '/' . ltrim($file, '/'));\n  233  		if ( ! $gid )\n  234  			return false;\n  ...\n  249  \n  250  	function move($source, $destination, $overwrite = false) {\n  251: 		return @ssh2_sftp_rename($this->link, $source, $destination);\n  252  	}\n  253  \n  254  	function delete($file, $recursive = false, $type = false) {\n  255  		if ( 'f' == $type || $this->is_file($file) )\n  256: 			return ssh2_sftp_unlink($this->sftp_link, $file);\n  257  		if ( ! $recursive )\n  258: 			 return ssh2_sftp_rmdir($this->sftp_link, $file);\n  259  		$filelist = $this->dirlist($file);\n  260  		if ( is_array($filelist) ) {\n  ...\n  263  			}\n  264  		}\n  265: 		return ssh2_sftp_rmdir($this->sftp_link, $file);\n  266  	}\n  267  \n  268  	function exists($file) {\n  269  		$file = ltrim($file, '/');\n  270: 		return file_exists('ssh2.sftp://' . $this->sftp_link . '/' . $file);\n  271  	}\n  272  \n  273  	function is_file($file) {\n  274  		$file = ltrim($file, '/');\n  275: 		return is_file('ssh2.sftp://' . $this->sftp_link . '/' . $file);\n  276  	}\n  277  \n  278  	function is_dir($path) {\n  279  		$path = ltrim($path, '/');\n  280: 		return is_dir('ssh2.sftp://' . $this->sftp_link . '/' . $path);\n  281  	}\n  282  \n  283  	function is_readable($file) {\n  284  		$file = ltrim($file, '/');\n  285: 		return is_readable('ssh2.sftp://' . $this->sftp_link . '/' . $file);\n  286  	}\n  287  \n  288  	function is_writable($file) {\n  289  		$file = ltrim($file, '/');\n  290: 		return is_writable('ssh2.sftp://' . $this->sftp_link . '/' . $file);\n  291  	}\n  292  \n  293  	function atime($file) {\n  294  		$file = ltrim($file, '/');\n  295: 		return fileatime('ssh2.sftp://' . $this->sftp_link . '/' . $file);\n  296  	}\n  297  \n  298  	function mtime($file) {\n  299  		$file = ltrim($file, '/');\n  300: 		return filemtime('ssh2.sftp://' . $this->sftp_link . '/' . $file);\n  301  	}\n  302  \n  303  	function size($file) {\n  304  		$file = ltrim($file, '/');\n  305: 		return filesize('ssh2.sftp://' . $this->sftp_link . '/' . $file);\n  306  	}\n  307  \n  ...\n  317  		if ( ! $chmod )\n  318  			$chmod = FS_CHMOD_DIR;\n  319: 		if ( ! ssh2_sftp_mkdir($this->sftp_link, $path, $chmod, true) )\n  320  			return false;\n  321  		if ( $chown )\n  ...\n  342  \n  343  		$ret = array();\n  344: 		$dir = @dir('ssh2.sftp://' . $this->sftp_link .'/' . ltrim($path, '/') );\n  345  \n  346  		if ( ! $dir )\n\n/Applications/XAMPP/xamppfiles/htdocs/amwo2/amwo2/wp-content/themes/dennie/sftp-config.json:\n    2      // The tab key will cycle through the settings when first created\n    3      \n    4:     // sftp, ftp or ftps\n    5      \"type\": \"ftp\",\n    6      \"save_before_upload\": true,\n    .\n   18      \n   19      \"remote_path\": \"/www/amwo/\",\n   20:     \"ignore_regex\": \"(\\\\.sublime-project|\\\\.sublime-workspace|sftp-config(-alt\\\\d?)?\\\\.json|sftp-settings\\\\.json|/venv/|\\\\.svn|\\\\.hg|\\\\.git|\\\\.bzr|_darcs|CVS|\\\\.DS_Store|Thumbs\\\\.db|desktop\\\\.ini)\",\n   21      //\"file_permissions\": \"664\",\n   22      //\"dir_permissions\": \"775\",\n   ..\n   25      \"ftp_passive_mode\": false\n   26      //\"ssh_key_file\": \"~/.ssh/id_rsa\",\n   27:     //\"sftp_flags\": \"-F /path/to/ssh_config\",\n   28      \n   29      //\"preserve_modification_times\": false,\n\n94 matches across 4 files\n",
+			"settings":
+			{
+				"buffer_size": 9754,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"contents": "{\n    // The tab key will cycle through the settings when first created\n    \n    // sftp, ftp or ftps\n    \"type\": \"ftp\",\n    \"save_before_upload\": true,\n    \"upload_on_save\": false,\n    \"sync_down_on_open\": false,\n    \"sync_skip_deletes\": false,\n    \"confirm_downloads\": false,\n    \"confirm_sync\": true,\n    \"confirm_overwrite_newer\": false,\n    \n    \"host\": \"108.167.184.4\",\n    \"user\": \"thenerd\",\n    \"password\": \"NegerTeef01\",\n    //\"port\": \"22\",\n    \n    \"remote_path\": \"/www/amwo/\",\n    \"ignore_regex\": \"(\\\\.sublime-project|\\\\.sublime-workspace|sftp-config(-alt\\\\d?)?\\\\.json|sftp-settings\\\\.json|/venv/|\\\\.svn|\\\\.hg|\\\\.git|\\\\.bzr|_darcs|CVS|\\\\.DS_Store|Thumbs\\\\.db|desktop\\\\.ini)\",\n    //\"file_permissions\": \"664\",\n    //\"dir_permissions\": \"775\",\n    \n    \"connect_timeout\": 30,\n    \"ftp_passive_mode\": false\n    //\"ssh_key_file\": \"~/.ssh/id_rsa\",\n    //\"sftp_flags\": \"-F /path/to/ssh_config\",\n    \n    //\"preserve_modification_times\": false,\n    //\"remote_time_offset_in_hours\": 0,\n    //\"remote_encoding\": \"utf-8\",\n    //\"remote_locale\": \"C\",\n}",
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/amwo2/amwo2/wp-content/themes/dennie/sftp-config.json",
+			"file_size": 1051,
+			"file_write_time": 1356775008000000,
+			"settings":
+			{
+				"buffer_size": 1051,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"fetc",
+				"Fetch: File"
+			],
+			[
+				"fe",
+				"Fetch: File"
+			],
+			[
+				"fetch",
+				"Fetch: Manage"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"pa",
+				"Package Control: Create Package File"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"javc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pros",
+				"Project: Save As"
+			],
+			[
+				"proj",
+				"Project: Save As"
+			],
+			[
+				"ftp",
+				"SFTP: Show Panel"
+			],
+			[
+				"pacak",
+				"Package Control: List Packages"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 494.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/amwo2/amwo2/wordpress/wp-content/themes/dennie/sftp-config.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/amwo2/wp-content/themes/dennie/js/filter/filter3.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/dragdrop/jquery_drag/js/views/card.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/dragdrop/jquery_drag/js/models/card.js",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/User/requiresnippet.sublime-snippet",
+		"/Applications/XAMPP/xamppfiles/htdocs/dragdrop/jquery_drag/js/collections/card.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/dragdrop/jquery_drag/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/dragdrop/jquery_drag/js/app.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/dragdrop/jquery_drag/js/main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/dragdrop/jquery_drag/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/amwo2/wp-config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/amwo2/wordpress/wp-content/themes/dennie/sftp-config.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/amwo2/wordpress/wp-config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/amwo2/wp-content/themes/dennie/js/lazyload.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/dragdrop/jquery_drag/js/backbone.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/dragdrop/jquery_drag/js/underscore.js",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/User/requiresnippet",
+		"/Applications/XAMPP/xamppfiles/htdocs/dragdrop/jquery_drag/js/require.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/dragdrop/jquery_drag/js/transform_enhanced.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/dragdrop/jquery_drag/js/transit.js",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/Goto-CSS-Declaration/Default (OSX).sublime-keymap",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/Goto-CSS-Declaration/goto_css_declaration.sublime-settings",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Default (OSX).sublime-keymap",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/dragdrop/dragdrop.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/dragdrop/html5 drag/dragdrop.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/dragdrop/jquery drag/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/picture_gallery/kunden_aktion.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/picture_gallery/anlasse_hochzeit.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/picture_gallery/anlasse_silvester.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/picture_gallery/kunden_clubs.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/picture_gallery/kunden_firmen.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/picture_gallery/kunden_grossveranstaltung.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/picture_gallery/kunden_hochzeit.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/picture_gallery/kunden_hotels.php",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_aktion.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/picture_gallery/anlasse_geburts.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/anlasse_geburtstag.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/picture_gallery/anlasse_aktion.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_hochzeit.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_grossveranstaltung.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_clubs.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_firmen.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_hotels.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/anlasse_hochzeit.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/anlasse_silvester.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/referenzen.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/includes/anruf.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/includes/preisListe.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/contact.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/includes/nav.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/jobs.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/home.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/sftp-config.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/includes/geschaftKundenMatrix.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/anlasse_home.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_home.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/impressum.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/sendContactMail.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/sendmail.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/includes/geschaftsSubmenu.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/includes/geschaftsSubmenuText.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/includes/footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/includes/geschaftsBeforeFooter.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/sftp-config.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/includes/zumshop.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/home.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_clubs.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_grossveranstaltung.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_firmen.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/includes/submenu.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/anlasse_silvester.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/anlasse_hochzeit.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/contact.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/anlasse_geburtstag.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/anlasse_home.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_home.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_hochzeit.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/referenzen.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/anlasse_sylvester.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_hotels.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftskunden_aktion.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/geschaftkunden_aktion.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sternengallery/contac.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/product_fluid.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/header.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/stylesheet/mystyle/grid.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/stylesheet/mystyle/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/product/category.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/product/product.tpl",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/BracketHighlighter/Default (OSX).sublime-keymap",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/product/untitled",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/javascript/common.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/openoriginaal/catalog/view/theme/default/template/product/product.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/product_overview.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/language/english/common/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/.git/MERGE_MSG",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/.git/COMMIT_EDITMSG",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/header2.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/product.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/css/grid.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/css/bootstrap.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/product/category.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/common/content_bottom.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/module/featured.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/stylesheet/mystyle/style_old.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/css/style.css",
+		"/Users/dennieriechelman/Downloads/zo_packages.sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/css/comingsoon.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/home.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/model/catalog/product.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/stylesheet/stylesheet.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/language/english/module/cart.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/module/cart.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/module/cart.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/common/column_right.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ynagua/bootstrap/css/bootstrap.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/common/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/model/setting/extension.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/system/engine/controller.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/content_bottom.tpl"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Applications/XAMPP/xamppfiles/htdocs/amwo2",
+			"/Applications/XAMPP/xamppfiles/htdocs/opencart",
+			"/Applications/XAMPP/xamppfiles/htdocs",
+			"/Applications/XAMPP/xamppfiles/htdocs/opencart",
+			"/Applications/XAMPP/xamppfiles/htdocs",
+			"/Applications/XAMPP/xamppfiles/htdocs/opencart"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sftp",
+			"main_container",
+			"getOffsetTopCont",
+			"lastPos",
+			"xxxxx",
+			"xxxxxxx",
+			"getScrollHeight",
+			"last",
+			"pos",
+			"scrollDotPos",
+			"currPos",
+			"offsetLastProj",
+			"animateScrollDot",
+			"dot",
+			";",
+			"Directory",
+			"DirectoryView",
+			"cache",
+			"Directory",
+			"DirectoryView",
+			"underscore",
+			"properties",
+			"..",
+			"console",
+			"jquery",
+			"require",
+			"canvas",
+			"backbone",
+			"moveToBack",
+			"cart",
+			"rt",
+			"dataTransfer",
+			"getData",
+			"droppable",
+			"document.body",
+			"<a",
+			"command",
+			"super+d",
+			"ctrl+d",
+			"select",
+			"selection",
+			"FW_hoehenfw1.jpg\nLB_biggi.jpg\nLB_indoor.jpg\nLB_suellberg.jpg\nSH_shooter1.jpg\nakzent.jpg\nbalu.jpg\nbarock.jpg\nblau.jpg\nerstaung.jpg\nfaecher.jpg\nfeuerkreisel.jpg\ngaleria.jpg\ngedanken.jpg\n",
+			"select",
+			"hover",
+			"no_underline",
+			"kontakt",
+			"•",
+			"relative",
+			"text_about",
+			"big_one",
+			"10",
+			"sylvester",
+			"wrapper",
+			"gross",
+			"hover",
+			"ctive",
+			"geburtstag",
+			"});\n",
+			"galler",
+			"left",
+			"html",
+			"text_about",
+			"			\n",
+			"wrapper_anl",
+			".geschafts_aktion_aktive",
+			".",
+			"grid_4",
+			"anlasse_submenu",
+			"grid_4",
+			"active",
+			"anlasse_submenu_geburts",
+			"active",
+			"html",
+			"text_about",
+			"html",
+			"anlasse_sch",
+			"html",
+			"referenzen",
+			"geschaft",
+			"anlasse",
+			"referenzen_secondpic",
+			";\n",
+			"referenzen_thirdpic",
+			"referenzen_secondpic",
+			"feuerwerk",
+			"gross_",
+			"gross",
+			".geschaftskunden_submenu_aktion_active {\n    height: 135px;\n    width: 157px;\n    height: 135px;\n    width: 157px;\n    background: url(../img/geschaft/sub/1selected.jpg) no-repeat;\n}\n",
+			"activ",
+			"hochzeit",
+			"hotels",
+			"otel_",
+			"hotel",
+			"active",
+			"hotels_",
+			"firmen",
+			"p",
+			"ext",
+			"active",
+			",",
+			"p",
+			"active",
+			".",
+			"_active",
+			"\">",
+			"hochzeit",
+			"gesch_firmen_sprite3",
+			"hochzeit",
+			"gesch_hochzeit_sprite1",
+			"gesch_hochzeit_text",
+			"gesch_sternen_service_balk",
+			"gesch_sternen_service_wrapper",
+			"gesch_sternen_service",
+			"active",
+			"grid_2",
+			"gross",
+			"hotel",
+			"firmen",
+			"wedding",
+			"geschaftskunden_submenu_wedding",
+			"aktion",
+			"gesch_aktion_silvester_txtoverpic",
+			"h1",
+			".gesch_aktion_weihnachts_text p {\n    margin-top: 30px;\n}",
+			"gesch_aktion_weihnachts_txtoverpic",
+			"gesch_aktion_silvester_text",
+			"gesch_aktion_weihnachts",
+			"gesch_aktion_weihnachts_text"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/amwo2/amwo2/wp-content/themes/dennie/index.php",
+					"settings":
+					{
+						"buffer_size": 12821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4859,
+								4873
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/amwo2/amwo2/wp-content/themes/dennie/css/style.css",
+					"settings":
+					{
+						"buffer_size": 15306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11414,
+								11414
+							]
+						],
+						"settings":
+						{
+							"class_or_id": "animateScrollDot();",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5944.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/amwo2/amwo2/wp-content/themes/dennie/css/flexslider.css",
+					"settings":
+					{
+						"buffer_size": 4258,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1711,
+								1711
+							]
+						],
+						"settings":
+						{
+							"auto_indent": true,
+							"class_or_id": "animateScrollDot();",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/amwo2/amwo2/wp-content/themes/dennie/js/filter/filter3.js",
+					"settings":
+					{
+						"buffer_size": 8550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2311,
+								2311
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/amwo2/amwo2/wp-content/themes/dennie/js/scroll.js",
+					"settings":
+					{
+						"buffer_size": 9589,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								767,
+								767
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"volcanise": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"settings":
+					{
+						"buffer_size": 9754,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										204,
+										208
+									],
+									[
+										416,
+										420
+									],
+									[
+										446,
+										450
+									],
+									[
+										735,
+										739
+									],
+									[
+										1084,
+										1088
+									],
+									[
+										1253,
+										1257
+									],
+									[
+										1371,
+										1375
+									],
+									[
+										1388,
+										1392
+									],
+									[
+										1587,
+										1591
+									],
+									[
+										1605,
+										1609
+									],
+									[
+										1757,
+										1761
+									],
+									[
+										1775,
+										1779
+									],
+									[
+										1961,
+										1965
+									],
+									[
+										1979,
+										1983
+									],
+									[
+										2145,
+										2149
+									],
+									[
+										2163,
+										2167
+									],
+									[
+										2350,
+										2354
+									],
+									[
+										2368,
+										2372
+									],
+									[
+										2494,
+										2498
+									],
+									[
+										2512,
+										2516
+									],
+									[
+										2700,
+										2704
+									],
+									[
+										2911,
+										2915
+									],
+									[
+										2930,
+										2934
+									],
+									[
+										3001,
+										3005
+									],
+									[
+										3019,
+										3023
+									],
+									[
+										3170,
+										3174
+									],
+									[
+										3188,
+										3192
+									],
+									[
+										3328,
+										3332
+									],
+									[
+										3346,
+										3350
+									],
+									[
+										3490,
+										3494
+									],
+									[
+										3508,
+										3512
+									],
+									[
+										3650,
+										3654
+									],
+									[
+										3668,
+										3672
+									],
+									[
+										3820,
+										3824
+									],
+									[
+										3838,
+										3842
+									],
+									[
+										3990,
+										3994
+									],
+									[
+										4008,
+										4012
+									],
+									[
+										4152,
+										4156
+									],
+									[
+										4170,
+										4174
+									],
+									[
+										4314,
+										4318
+									],
+									[
+										4332,
+										4336
+									],
+									[
+										4474,
+										4478
+									],
+									[
+										4492,
+										4496
+									],
+									[
+										4621,
+										4625
+									],
+									[
+										4639,
+										4643
+									],
+									[
+										4786,
+										4790
+									],
+									[
+										4804,
+										4808
+									],
+									[
+										5110,
+										5114
+									],
+									[
+										5279,
+										5283
+									],
+									[
+										5397,
+										5401
+									],
+									[
+										5414,
+										5418
+									],
+									[
+										5613,
+										5617
+									],
+									[
+										5631,
+										5635
+									],
+									[
+										5783,
+										5787
+									],
+									[
+										5801,
+										5805
+									],
+									[
+										5987,
+										5991
+									],
+									[
+										6005,
+										6009
+									],
+									[
+										6171,
+										6175
+									],
+									[
+										6189,
+										6193
+									],
+									[
+										6376,
+										6380
+									],
+									[
+										6394,
+										6398
+									],
+									[
+										6520,
+										6524
+									],
+									[
+										6538,
+										6542
+									],
+									[
+										6726,
+										6730
+									],
+									[
+										6937,
+										6941
+									],
+									[
+										6956,
+										6960
+									],
+									[
+										7027,
+										7031
+									],
+									[
+										7045,
+										7049
+									],
+									[
+										7196,
+										7200
+									],
+									[
+										7214,
+										7218
+									],
+									[
+										7354,
+										7358
+									],
+									[
+										7372,
+										7376
+									],
+									[
+										7516,
+										7520
+									],
+									[
+										7534,
+										7538
+									],
+									[
+										7676,
+										7680
+									],
+									[
+										7694,
+										7698
+									],
+									[
+										7846,
+										7850
+									],
+									[
+										7864,
+										7868
+									],
+									[
+										8016,
+										8020
+									],
+									[
+										8034,
+										8038
+									],
+									[
+										8178,
+										8182
+									],
+									[
+										8196,
+										8200
+									],
+									[
+										8340,
+										8344
+									],
+									[
+										8358,
+										8362
+									],
+									[
+										8500,
+										8504
+									],
+									[
+										8518,
+										8522
+									],
+									[
+										8647,
+										8651
+									],
+									[
+										8665,
+										8669
+									],
+									[
+										8812,
+										8816
+									],
+									[
+										8830,
+										8834
+									],
+									[
+										9096,
+										9100
+									],
+									[
+										9306,
+										9310
+									],
+									[
+										9336,
+										9340
+									],
+									[
+										9625,
+										9629
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								9257,
+								9257
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"incomplete_sync": null,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3563.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/amwo2/amwo2/wp-content/themes/dennie/sftp-config.json",
+					"settings":
+					{
+						"buffer_size": 1051,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								488,
+								488
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"common",
+				"opencart/catalog/view/javascript/common.js"
+			],
+			[
+				"comm",
+				"opencart/catalog/view/javascript/common.js"
+			],
+			[
+				"commonhead",
+				"opencart/catalog/view/theme/Ynagua/template/common/header.tpl"
+			],
+			[
+				"json",
+				"aletheio/sftp-config.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/dennieriechelman/Documents/Sublime Text/Projects/proto1.1.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true
+}

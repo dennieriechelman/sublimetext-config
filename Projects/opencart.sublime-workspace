@@ -1,0 +1,1255 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pre",
+				"prepend"
+			],
+			[
+				"cart_mybag_table",
+				"cart_mybag_tablecell"
+			],
+			[
+				"sign",
+				"sign_in_mobile"
+			],
+			[
+				"text_pay",
+				"text_payment_address"
+			],
+			[
+				"text_shipp",
+				"text_shipping_address"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"chec",
+				"checkedInput"
+			],
+			[
+				"prevent",
+				"preventDefault"
+			],
+			[
+				"checkout",
+				"checkout_confirm_page"
+			],
+			[
+				"visib",
+				"visibility"
+			],
+			[
+				"re",
+				"resize	zen:css_properties"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"res",
+				"responseText"
+			],
+			[
+				"Js",
+				"json_encode"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"str",
+				"strtoupper"
+			],
+			[
+				"catego",
+				"categoryID"
+			],
+			[
+				"cat",
+				"categoryID"
+			],
+			[
+				"fl",
+				"flexslider"
+			],
+			[
+				"vali",
+				"validatePayment"
+			],
+			[
+				"show",
+				"showConfirmPage"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"arar",
+				"array_search"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"data",
+				"dataType"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"strto",
+				"strtoupper"
+			],
+			[
+				"custom",
+				"custom_option_add_id"
+			],
+			[
+				"base",
+				"base64_decode"
+			],
+			[
+				"print",
+				"printf"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"border-",
+				"border-color	zen:css_properties"
+			],
+			[
+				"no",
+				"no-repeat  (value)"
+			],
+			[
+				"fsi",
+				"font-size	zen:css_properties"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/stylesheet/mystyle/style.scss",
+			"settings":
+			{
+				"buffer_size": 29453,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/header.tpl",
+			"settings":
+			{
+				"buffer_size": 10317,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/header_product.tpl",
+			"settings":
+			{
+				"buffer_size": 11799,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/stylesheet/mystyle/style.css",
+			"settings":
+			{
+				"buffer_size": 49619,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/checkout/cart.tpl",
+			"settings":
+			{
+				"buffer_size": 21031,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/checkout/cart.php",
+			"settings":
+			{
+				"buffer_size": 28394,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/information/contact.tpl",
+			"settings":
+			{
+				"buffer_size": 3005,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/mail/order.tpl",
+			"settings":
+			{
+				"buffer_size": 8208,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/footer.tpl",
+			"settings":
+			{
+				"buffer_size": 3715,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/checkout/checkout.tpl",
+			"settings":
+			{
+				"buffer_size": 29116,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"pa",
+				"Package Control: Create Package File"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"javc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pros",
+				"Project: Save As"
+			],
+			[
+				"proj",
+				"Project: Save As"
+			],
+			[
+				"ftp",
+				"SFTP: Show Panel"
+			],
+			[
+				"pacak",
+				"Package Control: List Packages"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/conf/apache/extra/httpd-vhosts.conf",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/language/english/information/contact.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/language/english/mail/order.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/admin/language/english/sale/contact.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/language/english/mail/customer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/model/account/customer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/mail/order.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/checkout/confirm.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/mainphoto.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/module/banner.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/product/category.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/module/banner.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/account/login.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/account/login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/payment/icepay_basic.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/checkout/checkout.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/checkout/cart.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/checkout/register.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/checkout/shipping_address.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/checkout/payment_address.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/stylesheet/mystyle/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/checkout/register.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/stylesheet/mystyle/grid.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/footer.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/header.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/header_product.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/header2.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/stylesheet/mystyle/bootstrap.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/account/order_info.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/account/order.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/checkout/payment_address.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/checkout/shipping_address.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/information/contact.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/checkout/cart.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/language/english/checkout/cart.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/error/not_found.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/error/not_found.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/product/product.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/checkout/shipping_method.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/system/library/tax.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/product/category.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/common/header_product.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/product/categoryjson.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/product/categoryjson.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/checkout/login.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/language/english/checkout/checkout.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/default/template/account/login.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/default/template/checkout/login.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/common/mainphoto.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/module/currency.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/product/product.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/headerNoPic.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/checkout/checkout.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/success.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/information/information.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/common/header.php",
+		"/Applications/XAMPP/xamppfiles/etc/httpd.conf",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/language/english/checkout/success.php",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/checkout/confirm.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/payment/cod.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/payment/cod.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/payment/icepay_basic.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/checkout/success.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/checkout/payment_method.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/checkout/werkt/checkout.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/checkout/oud/confirm.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/javascript/common.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/checkout/payment_method.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/default/template/checkout/confirm.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/account/forgotten.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/stylesheet/stylesheet.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/product/search.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/information/contact.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/information/sendmail.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/default/template/checkout/cart.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/model/design/banner.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/admin/model/design/banner.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/model/account/order.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/language/english/common/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/account/order_list.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/stylesheet/mystyle/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/system/library/cart.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/account/logout.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/admin/view/stylesheet/stylesheet.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/payment/multisafepay.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/default/template/product/product.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/install/view/template/header.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/admin/controller/payment/multisafepay.php",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/User/SFTP.errors.log",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/slider.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/stylesheet/mystyle/text.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/home.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/header_login.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/common/header_login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/language/english/account/login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/language/english/common/footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/column_left.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/admin/view/template/design/banner_form.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/admin/controller/design/banner.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/product/manufacturer_list.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/common/slider.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/admin/controller/module/banner.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/admin/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/common/home.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/common/topheader.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/topheader.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/common/footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/openoriginaal/system/engine/controller.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/common/nav_product.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/nav_product.tpl",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/BracketHighlighter/Default (OSX).sublime-keymap",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/admin/config_thenerd.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/config_thenerd.php",
+		"/Users/dennieriechelman/Downloads/opencart (1).sql",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/product/category_json.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/product/category_json.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/common/column_left.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/banner.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/common/banner.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/module/banner2.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/admin/view/template/module/slideshow.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/admin/controller/module/slideshow.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/openoriginaal/catalog/view/theme/default/template/common/home.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/openoriginaal/catalog/view/theme/default/template/module/banner.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/opencart/admin/model/catalog/category.php",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Users/dennieriechelman/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Applications/XAMPP/xamppfiles/htdocs/opencart",
+			"<project>",
+			"/Applications/XAMPP/xamppfiles/htdocs",
+			"/Applications/XAMPP/xamppfiles/htdocs/opencart",
+			"/Applications/XAMPP/xamppfiles/htdocs",
+			"/Applications/XAMPP/xamppfiles/htdocs/opencart",
+			"/Applications/XAMPP/xamppfiles/htdocs",
+			"/Applications/XAMPP/xamppfiles/htdocs/opencart"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"enqu",
+			"shipping",
+			"content_information",
+			"content_info",
+			"102",
+			"text_additionalinfo",
+			"login_link",
+			"text_services",
+			"upon logging",
+			"mastercard",
+			"confirm",
+			"pay_explanation",
+			"url",
+			"visa",
+			"product_overview_descr_wrapper",
+			"order",
+			"INDULGE IN SOFT AND COMFORTING DRYNESS",
+			"about",
+			"main_photo",
+			"country",
+			"country_id",
+			"testLogin",
+			"cart_finish_order_wrapper",
+			"custom",
+			"media_prevent_hover_bug_iphone",
+			"cart_finish_order_wrapper",
+			"country_select_wrapper",
+			"media_headline",
+			"active",
+			"pic",
+			"}\n",
+			"img",
+			"heading_delivery_address",
+			"heading_payment_address",
+			"pay_explanation",
+			"checkbox_wrapper",
+			"checkbox_new_address",
+			"container_checkout_new_ship_address",
+			"container_checkout_new_pay_address",
+			"error_agree_terms",
+			"button",
+			"button-confirm",
+			";\n",
+			"confirm",
+			"please agree",
+			"alert",
+			"checkout_price_span",
+			"container_checkout_orderoverview",
+			"row-mybag",
+			"checkout-product",
+			"checkout_product",
+			"checkout_confirm_page",
+			"confirm",
+			"checkout_payment_method_page",
+			"border: solid 1px #f4f2f1;",
+			"border: solid 1px #f4f2f1",
+			"border_checkout",
+			"row_checkout_payment",
+			"payment",
+			"div",
+			"red",
+			"search",
+			"span12",
+			"container_register_checkbox",
+			"register_checkbox_row",
+			"row",
+			"text",
+			"footer",
+			"checkout",
+			"checkout_row",
+			"container",
+			"=\"conta",
+			"cart_total_price_wrapper",
+			"cart_coupon_output",
+			"cart_shipping_price",
+			"cart_coupon",
+			"cart_price_wrapper",
+			"div",
+			"media_product_overview",
+			"left",
+			"text",
+			"none",
+			"sign_in_mobile_no_product",
+			"mobile",
+			"header_mobile_no_product",
+			"search",
+			"mobile",
+			"navigation",
+			"mobile",
+			"navigation_wrapper",
+			"mobile",
+			"ovo",
+			"899",
+			"last_header_row",
+			"text_payment_address",
+			"account_oderoverview_row",
+			"fluid",
+			"h2",
+			"id",
+			"number",
+			"button-sh",
+			"img",
+			"testLogin",
+			"contact_content",
+			"contact",
+			"footer",
+			"active_link",
+			"active_link_footer",
+			"nav_list",
+			"D2B8A8",
+			"ad7a57",
+			"D2B8A8",
+			"product",
+			"empty",
+			"checkout_confirm_page",
+			"shipping_zone_id",
+			"tax",
+			"black",
+			"update_cart_button",
+			"header",
+			"products_navi",
+			"cart",
+			"button-confirm",
+			"button",
+			"text",
+			";\n",
+			"checkout_login_container",
+			"button-account"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/stylesheet/mystyle/style.scss",
+					"settings":
+					{
+						"buffer_size": 29453,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16794,
+								16794
+							]
+						],
+						"settings":
+						{
+							"auto_indent": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"volcanise": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 13955.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/header.tpl",
+					"settings":
+					{
+						"buffer_size": 10317,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 52,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										5113,
+										5142
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								9502,
+								9502
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2667.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/header_product.tpl",
+					"settings":
+					{
+						"buffer_size": 11799,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 52,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										5087,
+										5116
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								4769,
+								4769
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 638.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/stylesheet/mystyle/style.css",
+					"settings":
+					{
+						"buffer_size": 49619,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								793,
+								793
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/checkout/cart.tpl",
+					"settings":
+					{
+						"buffer_size": 21031,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6516,
+								6527
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/controller/checkout/cart.php",
+					"settings":
+					{
+						"buffer_size": 28394,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13606,
+								13606
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 4.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/information/contact.tpl",
+					"settings":
+					{
+						"buffer_size": 3005,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1371,
+								1371
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/mail/order.tpl",
+					"settings":
+					{
+						"buffer_size": 8208,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 52,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										2060,
+										2188
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								6678,
+								6678
+							]
+						],
+						"settings":
+						{
+							"easy_motion_mode": false,
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1135.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/common/footer.tpl",
+					"settings":
+					{
+						"buffer_size": 3715,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 52,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										3269,
+										3275
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								576,
+								605
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 44.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/opencart/catalog/view/theme/Ynagua/template/checkout/checkout.tpl",
+					"settings":
+					{
+						"buffer_size": 29116,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 52,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										3321,
+										3327
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								11593,
+								11593
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4276.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"langucont",
+				"admin/language/english/sale/contact.php"
+			],
+			[
+				"conta",
+				"catalog/view/theme/Ynagua/template/information/contact.tpl"
+			],
+			[
+				"footer",
+				"catalog/view/theme/Ynagua/template/common/footer.tpl"
+			],
+			[
+				"contact",
+				"catalog/view/theme/Ynagua/template/information/contact.tpl"
+			],
+			[
+				"cart",
+				"catalog/view/theme/Ynagua/template/checkout/cart.tpl"
+			],
+			[
+				"header",
+				"catalog/view/theme/Ynagua/template/common/header.tpl"
+			],
+			[
+				"checlogin",
+				"catalog/view/theme/Ynagua/template/checkout/login.tpl"
+			],
+			[
+				"login",
+				"catalog/view/theme/default/template/account/login.tpl"
+			],
+			[
+				"register",
+				"catalog/view/theme/Ynagua/template/checkout/register.tpl"
+			],
+			[
+				"check",
+				"catalog/view/theme/Ynagua/template/checkout/checkout.tpl"
+			],
+			[
+				"cate",
+				"catalog/controller/product/categoryjson.php"
+			],
+			[
+				"categoryjs",
+				"catalog/controller/product/categoryjson.php"
+			],
+			[
+				"mainphoto",
+				"catalog/view/theme/Ynagua/template/common/mainphoto.tpl"
+			],
+			[
+				"main",
+				"catalog/controller/common/mainphoto.php"
+			],
+			[
+				"grid",
+				"catalog/view/theme/Ynagua/stylesheet/mystyle/grid.css"
+			],
+			[
+				"common",
+				"catalog/view/javascript/common.js"
+			],
+			[
+				"checko",
+				"catalog/controller/checkout/checkout.php"
+			],
+			[
+				"stylesheet",
+				"catalog/view/theme/Ynagua/stylesheet/stylesheet.css"
+			],
+			[
+				"forg",
+				"catalog/view/theme/Ynagua/template/account/forgotten.tpl"
+			],
+			[
+				"sear",
+				"catalog/view/theme/Ynagua/template/product/search.tpl"
+			],
+			[
+				"modeldesign",
+				"admin/model/design/banner.php"
+			],
+			[
+				"controprodu",
+				"catalog/controller/product/product.php"
+			],
+			[
+				"viewproduc",
+				"catalog/view/theme/Ynagua/template/product/product.tpl"
+			],
+			[
+				"viecart",
+				"catalog/view/theme/Ynagua/template/checkout/cart.tpl"
+			],
+			[
+				"style",
+				"catalog/view/theme/Ynagua/stylesheet/mystyle/style.scss"
+			],
+			[
+				"viewprod",
+				"catalog/view/theme/Ynagua/template/product/product.tpl"
+			],
+			[
+				"librcar",
+				"system/library/cart.php"
+			],
+			[
+				"contorder",
+				"catalog/controller/account/order.php"
+			],
+			[
+				"order",
+				"catalog/model/account/order.php"
+			],
+			[
+				"viewynhead",
+				"catalog/view/theme/Ynagua/template/common/header.tpl"
+			],
+			[
+				"cataviepr",
+				"catalog/view/theme/default/template/product/product.tpl"
+			],
+			[
+				"mult",
+				"opencart/admin/controller/payment/multisafepay.php"
+			],
+			[
+				"viewcart",
+				"opencart/catalog/view/theme/default/template/checkout/cart.tpl"
+			],
+			[
+				"te",
+				"opencart/catalog/view/theme/Ynagua/stylesheet/mystyle/text.css"
+			],
+			[
+				"sty",
+				"opencart/catalog/view/theme/Ynagua/stylesheet/mystyle/style.css"
+			],
+			[
+				"tex",
+				"opencart/catalog/view/theme/Ynagua/stylesheet/mystyle/text.css"
+			],
+			[
+				"text",
+				"opencart/catalog/view/theme/Ynagua/stylesheet/mystyle/text.css"
+			],
+			[
+				"comm",
+				"opencart/catalog/view/javascript/common.js"
+			],
+			[
+				"gri",
+				"opencart/catalog/view/theme/Ynagua/stylesheet/mystyle/grid.css"
+			],
+			[
+				"headern",
+				"opencart/catalog/view/theme/Ynagua/template/common/headerNoPic.tpl"
+			],
+			[
+				"common.js",
+				"opencart/catalog/view/javascript/common.js"
+			],
+			[
+				"json",
+				"aletheio/sftp-config.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/dennieriechelman/Documents/Sublime Text/Projects/proto1.1.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,36 @@
+2013-01-21 13:43:12
+Traceback (most recent call last):
+  File "./sftp/threads.py", line 16, in run_with_except_hook
+  File "./sftp/threads.py", line 101, in handler
+  File "./sftp/commands.py", line 264, in run
+  File "./sftp/commands.py", line 403, in do_operation
+  File "./sftp/file_transfer.py", line 25, in handler
+  File "./sftp/file_transfer.py", line 432, in listr
+  File "./sftp/file_transfer.py", line 25, in handler
+  File "./sftp/file_transfer.py", line 395, in list
+  File "./sftp/ftp_transport.py", line 582, in ls
+ConnectionError: Active mode error, please set ftp_passive_mode to true in sftp-config.json
+2013-06-28 18:37:18
+Traceback (most recent call last):
+  File "./sftp/threads.py", line 16, in run_with_except_hook
+  File "./sftp/threads.py", line 101, in handler
+  File "./sftp/commands.py", line 264, in run
+  File "./sftp/commands.py", line 403, in do_operation
+  File "./sftp/file_transfer.py", line 25, in handler
+  File "./sftp/file_transfer.py", line 432, in listr
+  File "./sftp/file_transfer.py", line 25, in handler
+  File "./sftp/file_transfer.py", line 395, in list
+  File "./sftp/ftp_transport.py", line 582, in ls
+ConnectionError: Active mode error, please set ftp_passive_mode to true in sftp-config.json
+2013-06-28 19:03:20
+Traceback (most recent call last):
+  File "./sftp/threads.py", line 16, in run_with_except_hook
+  File "./sftp/threads.py", line 101, in handler
+  File "./sftp/commands.py", line 264, in run
+  File "./sftp/commands.py", line 403, in do_operation
+  File "./sftp/file_transfer.py", line 25, in handler
+  File "./sftp/file_transfer.py", line 432, in listr
+  File "./sftp/file_transfer.py", line 25, in handler
+  File "./sftp/file_transfer.py", line 395, in list
+  File "./sftp/ftp_transport.py", line 582, in ls
+ConnectionError: Active mode error, please set ftp_passive_mode to true in sftp-config.json
